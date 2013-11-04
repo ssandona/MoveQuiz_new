@@ -1,0 +1,1784 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Si suppone che la risposta_a sia sempre esatta. Verrà in seguito randomizzata la disposizione delle risposte-->
+<livelli>
+<livello id="1">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="2">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="3">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="4">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="5">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="6">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="7">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="8">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="9">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+<livello id="10">
+    <categoria id="storia">
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+  <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+        <domanda>
+        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
+        <risposta_a>1965</risposta_a>
+        <risposta_b>1972</risposta_b>
+      </domanda>
+    </categoria>
+    <categoria id="matematica">
+      <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+          <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+        <domanda>
+        <testo>21</testo>
+        <risposta_a>7</risposta_a>
+        <risposta_b>3</risposta_b>
+        <risposta_c>5</risposta_c>
+        <risposta_d>4</risposta_d>
+      </domanda>
+    </categoria>
+    <categoria id="cultura">
+      <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+          <domanda>
+        <testo>Che stato ha dato prima il voto alle donne?</testo>
+        <risposta_a>Svizzera</risposta_a>
+        <risposta_b>Italia</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
+        <risposta_a>bianco</risposta_a>
+        <risposta_b>nero</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    <domanda>
+        <testo>Ma quanto bello sono?</testo>
+        <risposta_a>tanto</risposta_a>
+        <risposta_b>poco</risposta_b>
+      </domanda>
+    </categoria>
+</livello>
+</livelli>

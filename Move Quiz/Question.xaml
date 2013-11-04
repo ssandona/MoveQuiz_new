@@ -1,0 +1,106 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Move_Quiz.Question"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Name="RispostaNord" Text="{Binding ActQuestion.Risposta_1}" VerticalAlignment="Top" TextAlignment="Center" FontSize="50" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara"/>
+            <Popup x:Name="vittoria" Grid.Row="1" >
+                <Border  BorderThickness="2"  BorderBrush="{StaticResource PhoneAccentBrush}">
+                    <StackPanel Background="LightBlue" Height="490" Width="460">
+                        <Image Margin="0 30 0 20" Grid.Row="0" Source="/Images/vittoria.png" HorizontalAlignment="Center" Stretch="Uniform" Width="250" />
+                        <TextBlock Grid.Row="1" Text="Hai Vinto" TextAlignment="Center" FontSize="40" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Margin="10,0" />
+                        <Button Grid.Row="2" x:Name="btn_continue"  Content="Continue" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="next_level"/>
+
+                    </StackPanel>
+                </Border>
+            </Popup>
+            <!--<Popup x:Name="torna" Grid.Row="1">
+                <Border  BorderThickness="2" Margin="10 0 10 0" BorderBrush="{StaticResource PhoneAccentBrush}">
+                    <StackPanel  Background="LightBlue" Height="490" Width="460" >
+                        <Image Margin="0 30 0 20" Grid.Row="0" Source="/Images/mole_question.png" HorizontalAlignment="Center" Stretch="Uniform" Width="200" />
+                        <TextBlock Text="Esci dal livello" TextAlignment="Center" FontSize="40" Margin="10,0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" />
+                        <TextBlock Text="Sei sicuro?" FontSize="21" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Margin="10,0" />
+                        <StackPanel Orientation="Horizontal" Margin="0,10">
+                            <Button x:Name="btn_back"  Content="SI" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="back" />
+                            <Button x:Name="btn_cancel"    Content="NO"  FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="continua"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Popup>-->
+            <Popup x:Name="ricominciaPopUp" Grid.Row="1" >
+                <Border  BorderThickness="2"  BorderBrush="{StaticResource PhoneAccentBrush}">
+                    <StackPanel Background="LightBlue" Height="490" Width="460">
+                        <Image Margin="0 30 0 20" Grid.Row="0" Source="/Images/vittoria.png" HorizontalAlignment="Center" Stretch="Uniform" Width="250" />
+                        <TextBlock Grid.Row="1" Text="Risposta errata" TextAlignment="Center" FontSize="40" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Margin="10,0" />
+                        <Button Grid.Row="2" x:Name="btn_ricomincia"  Content="Continue" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="ricomincia"/>
+
+                    </StackPanel>
+                </Border>
+            </Popup>
+            <MediaElement 
+    x:Name="mole_sound" 
+    Source="Sounds/pop.mp3" 
+    AutoPlay="False" />
+
+            <MediaElement 
+    x:Name="win_sound" 
+    Source="Sounds/win.mp3" 
+    AutoPlay="False" />
+            <Grid x:Name="ContentCenter" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" HorizontalAlignment="Left"  TextWrapping="Wrap" Name="RispostaOvest" Text="{Binding ActQuestion.Risposta_3}" VerticalAlignment="Top" TextAlignment="Center" FontSize="50" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara"/>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Left"  TextWrapping="Wrap" Name="Domanda" Text="{Binding ActQuestion.Testo}" VerticalAlignment="Top" TextAlignment="Center" FontSize="40" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara"/>
+                    <TextBlock Grid.Row="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Name="Risultato" Text="" VerticalAlignment="Top" TextAlignment="Center" FontSize="50" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara"/>
+                </Grid>
+
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Name="Counter" TextWrapping="Wrap" Text="20" VerticalAlignment="Bottom" TextAlignment="Center"  FontSize="250" Foreground="#11FFFFFF" FontFamily="Segoe UI" />
+                <TextBlock Grid.Column="2" HorizontalAlignment="Left"  TextWrapping="Wrap" Name="RispostaEst" Text="{Binding ActQuestion.Risposta_4}" VerticalAlignment="Top"  TextAlignment="Center" FontSize="50" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara"/>
+            </Grid>
+            <TextBlock Grid.Row="2" HorizontalAlignment="Left" TextWrapping="Wrap" Name="RispostaSud" Text="{Binding ActQuestion.Risposta_2}" VerticalAlignment="Top"  FontSize="50" TextAlignment="Center" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara"/>
+            <Grid Grid.Row="3" Background="Gold">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" HorizontalAlignment="Left" TextWrapping="Wrap"  Text="Best Score" VerticalAlignment="Top"  FontSize="50" TextAlignment="Center" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara"/>
+                <TextBlock Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap"  Text="{Binding ActQuestion.Best_Score}" VerticalAlignment="Top"  FontSize="50" TextAlignment="Center" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara"/>
+            </Grid>
+        </Grid>
+        </Grid>
+        
+</phone:PhoneApplicationPage>
