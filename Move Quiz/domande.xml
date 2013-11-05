@@ -4,54 +4,54 @@
 <livello id="1">
     <categoria id="storia">
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>In quale anno ci fu l'attentato alle torri gemelle a New York?</testo>
+        <risposta_a>11 Settembre 2001</risposta_a>
+        <risposta_b>11 Settembre 2000</risposta_b>
       </domanda>
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>In quale anno l'uomo mise piede sulla Luna per la prima volta?</testo>
+        <risposta_a>1969</risposta_a>
+        <risposta_b>1968</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>In quale anno finì la Seconda Guerra Mondiale?</testo>
+        <risposta_a>1945</risposta_a>
+        <risposta_b>1946</risposta_b>
       </domanda>
-          <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quanti anni ha l'universo?</testo>
+        <risposta_a>13 miliardi</risposta_a>
+        <risposta_b>7.5 miliardi</risposta_b>
       </domanda>
-  <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quale era il cognome di Napoleone?</testo>
+        <risposta_a>Bonaparte</risposta_a>
+        <risposta_b>Ajaccio</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Chi fu il dittatore Italiano in carica durante il periodo fascista?</testo>
+        <risposta_a>Mussolini</risposta_a>
+        <risposta_b>Hitler</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quanti erano i componenti del gruppo inglese The Beatles?</testo>
+        <risposta_a>4</risposta_a>
+        <risposta_b>6</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quale fu il re di Francia che fu soprannominato "Il Breve"?</testo>
+        <risposta_a>Pipino</risposta_a>
+        <risposta_b>Carlo</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quali furono, secondo la leggenda, i due fratelli che fondarono Roma?</testo>
+        <risposta_a>Romolo &amp; Remo</risposta_a>
+        <risposta_b>Raimondo &amp; Romano</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Chi fu il primo presidente degli USA di colore?</testo>
+        <risposta_a>Obama</risposta_a>
+        <risposta_b>Martin Luther King</risposta_b>
       </domanda>
     </categoria>
     <categoria id="matematica">
@@ -128,108 +128,108 @@
     </categoria>
     <categoria id="cultura">
       <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+        <testo>Qual'è la vetta più alta d'Italia?</testo>
+        <risposta_a>Monte Bianco</risposta_a>
+        <risposta_b>Marmolada</risposta_b>
       </domanda>
       <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+        <testo>Qual'è la lettera più usata nell'alfabeto italiano?</testo>
+        <risposta_a>I</risposta_a>
+        <risposta_b>R</risposta_b>
       </domanda>
       <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
-      </domanda>
-    <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+        <testo>Di che colore era inizialmente le Coca-Cola?</testo>
+        <risposta_a>Verde</risposta_a>
+        <risposta_b>Rossa</risposta_b>
       </domanda>
       <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+        <testo>In quale città si trova l'abbazia di Westminster?</testo>
+        <risposta_a>Londra</risposta_a>
+        <risposta_b>Indianapolis</risposta_b>
       </domanda>
       <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
-      </domanda>
-          <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+        <testo>Come si chiama il "giallo" dell'uovo?</testo>
+        <risposta_a>Tuorlo</risposta_a>
+        <risposta_b>Albume</risposta_b>
       </domanda>
       <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+        <testo>Che animale è Pippo?</testo>
+        <risposta_a>Cane</risposta_a>
+        <risposta_b>Pappagallo</risposta_b>
       </domanda>
       <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
+        <testo>Chi ha inventato la pila elettrica?</testo>
+        <risposta_a>A. Volta</risposta_a>
+        <risposta_b>N. Tesla</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
+      <domanda>
+        <testo>Di che colore è la maglia della Fiorentina</testo>
+        <risposta_a>Viola</risposta_a>
+        <risposta_b>Bianca e blu</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Dove si trova la rotula?</testo>
+        <risposta_a>Ginocchio</risposta_a>
+        <risposta_b>Braccio</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Qual'è la malattia più diffusa al mondo</testo>
+        <risposta_a>Raffreddore</risposta_a>
+        <risposta_b>Tubercolosi</risposta_b>
       </domanda>
     </categoria>
 </livello>
 <livello id="2">
     <categoria id="storia">
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>Con chi nacque l'ideologia Comunista?</testo>
+        <risposta_a>Karl Marx</risposta_a>
+        <risposta_b>Mao Tse-tung</risposta_b>
       </domanda>
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>In quale anno iniziò la Seconda Guerra Mondiale?</testo>
+        <risposta_a>1939</risposta_a>
+        <risposta_b>1940</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Dove nacque l'Induismo?</testo>
+        <risposta_a>Valle dell'Indo</risposta_a>
+        <risposta_b>Thailandia</risposta_b>
       </domanda>
-          <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Chi è vissuto prima?</testo>
+        <risposta_a>Cristo</risposta_a>
+        <risposta_b>Giulio Cesare</risposta_b>
       </domanda>
-  <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Dove nacque Adolf Hitler?</testo>
+        <risposta_a>Austria</risposta_a>
+        <risposta_b>Germania</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando fu il Millenium Bug che colpì i sistemi informatici?</testo>
+        <risposta_a>2000</risposta_a>
+        <risposta_b>2002</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quale periodo storico venne prima?</testo>
+        <risposta_a>Età del Bronzo</risposta_a>
+        <risposta_b>Età del Ferro</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Chi è vissuto prima?</testo>
+        <risposta_a>Dante Alighieri</risposta_a>
+        <risposta_b>Boccaccio</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Chi fu il primo presidente degli USA?</testo>
+        <risposta_a>George Washington</risposta_a>
+        <risposta_b>John Adams</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando fu inventata la Coca-Cola?</testo>
+        <risposta_a>1886</risposta_a>
+        <risposta_b>1920</risposta_b>
       </domanda>
     </categoria>
     <categoria id="matematica">
@@ -306,108 +306,108 @@
     </categoria>
     <categoria id="cultura">
       <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+        <testo>Quante furono le fatiche di Ercole?</testo>
+        <risposta_a>12</risposta_a>
+        <risposta_b>5</risposta_b>
       </domanda>
       <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+        <testo>Qual'è l'isola più grande della Terra?</testo>
+        <risposta_a>La Groenlandia</risposta_a>
+        <risposta_b>L'Inghilterra</risposta_b>
       </domanda>
       <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
+        <testo>Come si chiamano le uova pregiate che ci vengono fornite dallo storione?</testo>
+        <risposta_a>Caviale</risposta_a>
+        <risposta_b>Escargot</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+	<domanda>
+        <testo>Di quanti pezzi dispone ciascun giocatore in una partita di scacchi?</testo>
+        <risposta_a>16</risposta_a>
+        <risposta_b>12</risposta_b>
       </domanda>
-      <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+	<domanda>
+        <testo>Quale fiume scorre a Lisbona?</testo>
+        <risposta_a>Tago</risposta_a>
+        <risposta_b>Ebro</risposta_b>
       </domanda>
-      <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
+	<domanda>
+        <testo>Che genere di animale è il Macaco?</testo>
+        <risposta_a>Scimmia</risposta_a>
+        <risposta_b>Cane</risposta_b>
       </domanda>
-          <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+	<domanda>
+        <testo>Chi ha inventato il personaggio di Lucignolo?</testo>
+        <risposta_a>C. Collodi</risposta_a>
+        <risposta_b>A. Manzoni</risposta_b>
       </domanda>
-      <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+	<domanda>
+        <testo>Quale infermità colpì Beethoven?</testo>
+        <risposta_a>Sordità</risposta_a>
+        <risposta_b>Alzheimer</risposta_b>
       </domanda>
-      <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
+	<domanda>
+        <testo>Cosa inventò il signor Dunlop</testo>
+        <risposta_a>Pneumatico</risposta_a>
+        <risposta_b>Motore a scoppio</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
+	<domanda>
+        <testo>Di che paese era confucio?</testo>
+        <risposta_a>Cina</risposta_a>
+        <risposta_b>Grecia</risposta_b>
       </domanda>
     </categoria>
 </livello>
 <livello id="3">
     <categoria id="storia">
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>Quando morì Marco Polo?</testo>
+        <risposta_a>1324</risposta_a>
+        <risposta_b>1492</risposta_b>
       </domanda>
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>Quando venne fondata la RAI?</testo>
+        <risposta_a>1905</risposta_a>
+        <risposta_b>1954</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>L’esercito italiano entrò a Roma, nel 1870, attraverso la breccia di...</testo>
+        <risposta_a>Porta Pia</risposta_a>
+        <risposta_b>Porta Garibaldi</risposta_b>
       </domanda>
-          <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Cosa comparve circa 150.000 anni in Europa?</testo>
+        <risposta_a>L'uomo di Neanderthal</risposta_a>
+        <risposta_b>Le prime forme di vita</risposta_b>
       </domanda>
-  <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>In che periodo si sviluppo l'età Medievale?</testo>
+        <risposta_a>Dal V al XV secolo</risposta_a>
+        <risposta_b>Dal I al X secolo</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Chi fu pugnalato da Bruto e Cassio?</testo>
+        <risposta_a>Cesare</risposta_a>
+        <risposta_b>Nerone</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Che cosa inventò Evangelista Torricelli?</testo>
+        <risposta_a>Barometro</risposta_a>
+        <risposta_b>Pizza</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Chi fu soprannominato "Flagello di Dio"?</testo>
+        <risposta_a>Attila</risposta_a>
+        <risposta_b>Odoacre</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Come si chiamava l'organo di polizia Fascista?</testo>
+        <risposta_a>Ovra</risposta_a>
+        <risposta_b>Eiar</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando venne fondata la FIAT?</testo>
+        <risposta_a>1899</risposta_a>
+        <risposta_b>1921</risposta_b>
       </domanda>
     </categoria>
     <categoria id="matematica">
@@ -484,108 +484,108 @@
     </categoria>
     <categoria id="cultura">
       <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+        <testo>Quanto è lunga una maratona?</testo>
+        <risposta_a>41.183 metri</risposta_a>
+        <risposta_b>35.292 metri</risposta_b>
       </domanda>
       <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+        <testo>Dove si trova la Versilia?</testo>
+        <risposta_a>Toscana</risposta_a>
+        <risposta_b>Marche</risposta_b>
       </domanda>
       <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
-      </domanda>
-    <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+        <testo>A quale stato appartiene il Peloponneso?</testo>
+        <risposta_a>Grecia</risposta_a>
+        <risposta_b>Albania</risposta_b>
       </domanda>
       <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+        <testo>Qual è il nome proprio di Ungaretti?</testo>
+        <risposta_a>Giuseppe</risposta_a>
+        <risposta_b>Mario</risposta_b>
       </domanda>
       <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
-      </domanda>
-          <domanda>
-        <testo>Che stato ha dato prima il voto alle donne?</testo>
-        <risposta_a>Svizzera</risposta_a>
-        <risposta_b>Italia</risposta_b>
+        <testo>Congelando, l'acqua aumenta o diminuisce di volume?</testo>
+        <risposta_a>Aumenta</risposta_a>
+        <risposta_b>Diminuisce</risposta_b>
       </domanda>
       <domanda>
-        <testo>Di che colore era il cavallo bianco di Napoleone?</testo>
-        <risposta_a>bianco</risposta_a>
-        <risposta_b>nero</risposta_b>
+        <testo>"Amen" è una parola...</testo>
+        <risposta_a>Ebraica</risposta_a>
+        <risposta_b>Latina</risposta_b>
       </domanda>
       <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
+        <testo>Chi ha scritto "Il Passero Solitario"?</testo>
+        <risposta_a>G. Leopardi</risposta_a>
+        <risposta_b>U. Foscolo</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Ma quanto bello sono?</testo>
-        <risposta_a>tanto</risposta_a>
-        <risposta_b>poco</risposta_b>
+      <domanda>
+        <testo>Che stato americano ha la bandiera verde bianca rossa?</testo>
+        <risposta_a>Messico</risposta_a>
+        <risposta_b>Uruguay</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>Quale è il pianeta più vicino al sole?</testo>
+        <risposta_a>Mercurio</risposta_a>
+        <risposta_b>Venere</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>In quale nazione le vacche sono sacre?</testo>
+        <risposta_a>India</risposta_a>
+        <risposta_b>Arabia Saudita</risposta_b>
       </domanda>
     </categoria>
 </livello>
 <livello id="4">
     <categoria id="storia">
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
+        <testo>Quando fu la terribile strage terroristica alla stazione di bologna?</testo>
+        <risposta_a>1980</risposta_a>
+        <risposta_b>1965</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>In che anno venne firmato il patto di acciaio fra Italia e Germania?</testo>
+        <risposta_a>1939</risposta_a>
+        <risposta_b>1855</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>In quale anno divenne papa Karol Woytila?</testo>
+        <risposta_a>1978</risposta_a>
+        <risposta_b>1992</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>In quale anno gli Stati Uniti sganciarono sul Giappone la prima bomba atomica?</testo>
+        <risposta_a>1945</risposta_a>
+        <risposta_b>1965</risposta_b>
+      </domanda>
+      <domanda>
+        <testo>In quale anno si tennero le olimpiadi a roma?</testo>
+        <risposta_a>1960</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
+        <testo>In quale anno si verifico' la strage di Capaci?</testo>
+        <risposta_a>1992</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Come sichiamava il movimento fondato da F. T. Marinetti?</testo>
+        <risposta_a>Futurismo</risposta_a>
+        <risposta_b>Neoprimitivismo</risposta_b>
       </domanda>
-          <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Che cosa introdusse in Europa avendolo scoperto in America, il signor Nicot?</testo>
+        <risposta_a>Tabacco</risposta_a>
+        <risposta_b>Mais</risposta_b>
       </domanda>
-  <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quand'è stata la presa della Bastiglia?</testo>
+        <risposta_a>1789</risposta_a>
+        <risposta_b>1845</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
-      </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
-      </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
-      </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
-      </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando ci fu una tremenda alluvione in Italia?</testo>
+        <risposta_a>1966</risposta_a>
+        <risposta_b>1979</risposta_b>
       </domanda>
     </categoria>
     <categoria id="matematica">
@@ -716,54 +716,54 @@
 <livello id="5">
     <categoria id="storia">
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>In che anno è stato emesso il primo francobollo?</testo>
+        <risposta_a>1840</risposta_a>
+        <risposta_b>1899</risposta_b>
       </domanda>
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>In quale localita' della Sicilia sbarcarono i mille?</testo>
+        <risposta_a>Marsala</risposta_a>
+        <risposta_b>Porto Empedocle</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>In quale città Napoleone fu proclamato re d'Italia?</testo>
+        <risposta_a>Parigi</risposta_a>
+        <risposta_b>Roma</risposta_b>
       </domanda>
-          <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Da che cosa fu sancita l'annessione di Roma all'Italia?</testo>
+        <risposta_a>Plebiscito</risposta_a>
+        <risposta_b>Battaglia</risposta_b>
       </domanda>
-  <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando venne proclamata la prima Repubblica Sovietica Cinese da Mao?</testo>
+        <risposta_a>1931</risposta_a>
+        <risposta_b>1944</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando avvenne la cosiddetta "Rivoluzione d'Ottobre"?</testo>
+        <risposta_a>1917</risposta_a>
+        <risposta_b>1905</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quanti milioni di morti provocò la II Guerra Mondiale?</testo>
+        <risposta_a>Circa 40</risposta_a>
+        <risposta_b>Circa 60</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando fu inventata la penicillina da Fleming?</testo>
+        <risposta_a>1929</risposta_a>
+        <risposta_b>1876</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando uscì il celebre disco "The Dark Side of the moon"?</testo>
+        <risposta_a>1973</risposta_a>
+        <risposta_b>1969</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Come si chiamavano i sostenitori di Lenin?</testo>
+        <risposta_a>Bolscevichi</risposta_a>
+        <risposta_b>Menscevichi</risposta_b>
       </domanda>
     </categoria>
     <categoria id="matematica">
@@ -894,54 +894,54 @@
 <livello id="6">
     <categoria id="storia">
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>Quale conquistatore si espanse più di chiunque altro?</testo>
+        <risposta_a>Gengis Khan</risposta_a>
+        <risposta_b>Giorgio V</risposta_b>
       </domanda>
       <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+        <testo>Quale città fu cosparsa di sale dai Romani?</testo>
+        <risposta_a>Cartagine</risposta_a>
+        <risposta_b>Londra</risposta_b>
       </domanda>
-    <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quale città non è mai stata capitale d'Italia?</testo>
+        <risposta_a>Venezia</risposta_a>
+        <risposta_b>Firenze</risposta_b>
       </domanda>
-          <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Dove fu fatto il massacro delle olimpiadi del 1972</testo>
+        <risposta_a>Monaco</risposta_a>
+        <risposta_b>Montréal</risposta_b>
       </domanda>
-  <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Chi finanziò Cristoforo Colombo nel suo viaggio?</testo>
+        <risposta_a>Isabella di Castiglia</risposta_a>
+        <risposta_b>Filippo I d'Asburgo</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando venne proiettata per la prima volta in pubblico una pellicola cinematografica?</testo>
+        <risposta_a>1895</risposta_a>
+        <risposta_b>1867</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando venne effettuata la prima telefonata della storia?</testo>
+        <risposta_a>1876</risposta_a>
+        <risposta_b>1856</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Qual'era la costruzione più alta del mondo nel 1920?</testo>
+        <risposta_a>Tour Eiffel</risposta_a>
+        <risposta_b>Chrysler Building</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Quando nacque Darwin?</testo>
+        <risposta_a>1809</risposta_a>
+        <risposta_b>1859</risposta_b>
       </domanda>
-        <domanda>
-        <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
-        <risposta_a>1965</risposta_a>
-        <risposta_b>1972</risposta_b>
+      <domanda>
+        <testo>Qual'è la più antica forma di legislazione conosciuta?</testo>
+        <risposta_a>Codice di Hamurrabi</risposta_a>
+        <risposta_b>Stele di Roseta</risposta_b>
       </domanda>
     </categoria>
     <categoria id="matematica">
