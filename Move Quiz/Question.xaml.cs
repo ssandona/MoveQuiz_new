@@ -47,10 +47,12 @@ namespace Move_Quiz
                 /// converti la stringa dell id del livello in intero
                 idLivello = Convert.ToInt32(liv);
                 categoria = cat;
+                MessageBox.Show(cat + " " + idLivello);
                 /// crea un nuovo DataContext con il LivelloVM(id) per il binding
-                this.DataContext = new QuestionsVM(idLivello,cat);
+                this.DataContext = new QuestionsVM(idLivello, cat);
                 numeroRisp = ((QuestionsVM)(this.DataContext)).NumRisp;
             }
+            this.DataContext = new QuestionsVM(idLivello, cat);
         }
 
 
@@ -60,7 +62,7 @@ namespace Move_Quiz
             stopTimer();
             //mole_sound.Play();
             bool correct = ((QuestionsVM)this.DataContext).Verify(risposta);
-            
+
             if (correct)
             {
                 bool exist_next = ((QuestionsVM)this.DataContext).nextQuestion(punti);
@@ -71,7 +73,7 @@ namespace Move_Quiz
                 }
                 else avviaTimer(10);
             }
-            else ricominciaPopUp.IsOpen = true;
+            else { /*ricominciaPopUp.IsOpen = true;*/ }
 
             
         }
@@ -85,6 +87,7 @@ namespace Move_Quiz
         public void stopTimer()
         {
             dt.Stop();
+            MessageBox.Show("timer bloccato");
         }
 
         private void dt_Tick(object sender, EventArgs e)

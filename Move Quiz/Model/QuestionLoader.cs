@@ -58,10 +58,9 @@ namespace Move_Quiz
                           select query;
             
             List<XElement> i = domande.ToList();
-            //MessageBox.Show("categoria: " + categoria + " livello: " + livello + " trovati " + i.Count + " elementi");
             for (int j = 0; j < 10; j++)
             {
-
+                
                 //seleziono il testo della domanda
                 var testo = from query in i[j].Descendants("testo")
                             select query;

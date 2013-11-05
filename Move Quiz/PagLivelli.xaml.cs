@@ -29,9 +29,9 @@ namespace Move_Quiz
             bool ris = ((LivelliVM)(this.DataContext)).Avaiable(liv,cat);
             string uri;
             if (ris)
-            {
-                uri = "/Question.xaml?id=" + liv.ToString()+"cat="+cat;
-
+            {   
+                uri = "/Question.xaml?id=" + liv.ToString()+"&cat="+cat;
+                //MessageBox.Show("passo alla prossima pagina " + uri);
                 NavigationService.Navigate(new Uri(uri, UriKind.Relative));
             }
 

@@ -85,7 +85,7 @@ namespace Move_Quiz
         {
             get
             {
-                return risposte[1];
+                return risposte[0];
             }
         }
 
@@ -93,7 +93,7 @@ namespace Move_Quiz
         {
             get
             {
-                return risposte[2];
+                return risposte[1];
             }
         }
 
@@ -101,7 +101,9 @@ namespace Move_Quiz
         {
             get
             {
-                return risposte[3];
+                if (risposte.Count == 4)
+                    return risposte[2];
+                else return "";
             }
         }
 
@@ -109,7 +111,9 @@ namespace Move_Quiz
         {
             get
             {
-                return risposte[4];
+                if (risposte.Count == 4)
+                    return risposte[3];
+                else return "";
             }
         }
 

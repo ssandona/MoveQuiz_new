@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--Si suppone che la risposta_a sia sempre esatta. Verrà in seguito randomizzata la disposizione delle risposte-->
 <livelli>
-<livello id="1">
+  <livello id="1">
     <categoria id="storia">
       <domanda>
         <testo>In quale anno ci fu l'attentato alle torri gemelle a New York?</testo>
@@ -62,63 +62,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -178,8 +178,8 @@
         <risposta_b>Tubercolosi</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="2">
+  </livello>
+  <livello id="2">
     <categoria id="storia">
       <domanda>
         <testo>Con chi nacque l'ideologia Comunista?</testo>
@@ -240,63 +240,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -320,44 +320,44 @@
         <risposta_a>Caviale</risposta_a>
         <risposta_b>Escargot</risposta_b>
       </domanda>
-	<domanda>
+      <domanda>
         <testo>Di quanti pezzi dispone ciascun giocatore in una partita di scacchi?</testo>
         <risposta_a>16</risposta_a>
         <risposta_b>12</risposta_b>
       </domanda>
-	<domanda>
+      <domanda>
         <testo>Quale fiume scorre a Lisbona?</testo>
         <risposta_a>Tago</risposta_a>
         <risposta_b>Ebro</risposta_b>
       </domanda>
-	<domanda>
+      <domanda>
         <testo>Che genere di animale è il Macaco?</testo>
         <risposta_a>Scimmia</risposta_a>
         <risposta_b>Cane</risposta_b>
       </domanda>
-	<domanda>
+      <domanda>
         <testo>Chi ha inventato il personaggio di Lucignolo?</testo>
         <risposta_a>C. Collodi</risposta_a>
         <risposta_b>A. Manzoni</risposta_b>
       </domanda>
-	<domanda>
+      <domanda>
         <testo>Quale infermità colpì Beethoven?</testo>
         <risposta_a>Sordità</risposta_a>
         <risposta_b>Alzheimer</risposta_b>
       </domanda>
-	<domanda>
+      <domanda>
         <testo>Cosa inventò il signor Dunlop</testo>
         <risposta_a>Pneumatico</risposta_a>
         <risposta_b>Motore a scoppio</risposta_b>
       </domanda>
-	<domanda>
+      <domanda>
         <testo>Di che paese era confucio?</testo>
         <risposta_a>Cina</risposta_a>
         <risposta_b>Grecia</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="3">
+  </livello>
+  <livello id="3">
     <categoria id="storia">
       <domanda>
         <testo>Quando morì Marco Polo?</testo>
@@ -418,63 +418,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -534,8 +534,8 @@
         <risposta_b>Arabia Saudita</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="4">
+  </livello>
+  <livello id="4">
     <categoria id="storia">
       <domanda>
         <testo>Quando fu la terribile strage terroristica alla stazione di bologna?</testo>
@@ -596,63 +596,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -676,7 +676,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -691,7 +691,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -706,14 +706,14 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Ma quanto bello sono?</testo>
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="5">
+  </livello>
+  <livello id="5">
     <categoria id="storia">
       <domanda>
         <testo>In che anno è stato emesso il primo francobollo?</testo>
@@ -774,63 +774,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -854,7 +854,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -869,7 +869,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -884,14 +884,14 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Ma quanto bello sono?</testo>
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="6">
+  </livello>
+  <livello id="6">
     <categoria id="storia">
       <domanda>
         <testo>Quale conquistatore si espanse più di chiunque altro?</testo>
@@ -952,63 +952,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -1032,7 +1032,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1047,7 +1047,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1062,14 +1062,14 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Ma quanto bello sono?</testo>
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="7">
+  </livello>
+  <livello id="7">
     <categoria id="storia">
       <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
@@ -1081,42 +1081,42 @@
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-  <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
@@ -1130,63 +1130,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -1210,7 +1210,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1225,7 +1225,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1240,14 +1240,14 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Ma quanto bello sono?</testo>
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="8">
+  </livello>
+  <livello id="8">
     <categoria id="storia">
       <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
@@ -1259,42 +1259,42 @@
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-  <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
@@ -1308,63 +1308,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -1388,7 +1388,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1403,7 +1403,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1418,14 +1418,14 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Ma quanto bello sono?</testo>
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="9">
+  </livello>
+  <livello id="9">
     <categoria id="storia">
       <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
@@ -1437,42 +1437,42 @@
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-  <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
@@ -1486,63 +1486,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -1566,7 +1566,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1581,7 +1581,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1596,14 +1596,14 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Ma quanto bello sono?</testo>
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
     </categoria>
-</livello>
-<livello id="10">
+  </livello>
+  <livello id="10">
     <categoria id="storia">
       <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
@@ -1615,42 +1615,42 @@
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-  <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>Quando fu pubblicato il celebre album Abbey Road dei Beatles?</testo>
         <risposta_a>1965</risposta_a>
         <risposta_b>1972</risposta_b>
@@ -1664,63 +1664,63 @@
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
         <risposta_c>5</risposta_c>
         <risposta_d>4</risposta_d>
       </domanda>
-        <domanda>
+      <domanda>
         <testo>21</testo>
         <risposta_a>7</risposta_a>
         <risposta_b>3</risposta_b>
@@ -1744,7 +1744,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1759,7 +1759,7 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-          <domanda>
+      <domanda>
         <testo>Che stato ha dato prima il voto alle donne?</testo>
         <risposta_a>Svizzera</risposta_a>
         <risposta_b>Italia</risposta_b>
@@ -1774,11 +1774,11 @@
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
-    <domanda>
+      <domanda>
         <testo>Ma quanto bello sono?</testo>
         <risposta_a>tanto</risposta_a>
         <risposta_b>poco</risposta_b>
       </domanda>
     </categoria>
-</livello>
+  </livello>
 </livelli>
