@@ -20,11 +20,24 @@ namespace Move_Quiz
         int numeroRisp;
         int idLivello;
         string categoria;
+        bool Nord_;
+        bool Sud_;
+        bool Est_;
+        bool Ovest_;
+        bool Riposo_;
+        bool risposta;
+        bool correct;
 
         // Constructor
         public Question()
         {
             InitializeComponent();
+            Nord_ = false;
+            Sud_ = false;
+            Est_ = false;
+            Ovest_ = false;
+            Riposo_ = true;
+            risposta = false;
             punti = 0;
             dt.Interval = new TimeSpan(0,0,0,1,0); // 1 sec
             dt.Tick += new EventHandler(dt_Tick);
@@ -57,23 +70,13 @@ namespace Move_Quiz
 
 
         /// METODO: invoca il movimento sul bottone selezionato
-        private void Go(int risposta)
+        private void Go(int risp)
         {
             stopTimer();
             //mole_sound.Play();
-            bool correct = ((QuestionsVM)this.DataContext).Verify(risposta);
-
-            if (correct)
-            {
-                bool exist_next = ((QuestionsVM)this.DataContext).nextQuestion(punti);
-                if (!exist_next)
-                {
-                    //win_sound.Play();
-                    vittoria.IsOpen = true;
-                }
-                else avviaTimer(10);
-            }
-            else { /*ricominciaPopUp.IsOpen = true;*/ }
+            correct = ((QuestionsVM)this.DataContext).Verify(risp);
+            risposta = true;
+            
 
             
         }
@@ -165,11 +168,27 @@ namespace Move_Quiz
             }
         }
 
-        public void Riposo() {
+        public void Riposo()
+        {
             RispostaNord.FontSize = 50;
             RispostaSud.FontSize = 50;
             RispostaOvest.FontSize = 50;
             RispostaEst.FontSize = 50;
+            if (risposta)
+            {
+                if (correct)
+                {
+                    bool exist_next = ((QuestionsVM)this.DataContext).nextQuestion(punti);
+                    if (!exist_next)
+                    {
+                        //win_sound.Play();
+                        vittoria.IsOpen = true;
+                    }
+                    else avviaTimer(10);
+                }
+                else { ricominciaPopUp.IsOpen = true; }
+                risposta = false;
+            }
         }
 
 
@@ -203,11 +222,56 @@ namespace Move_Quiz
                 double ovest = -0.2;
                 double est = 0.5;
 
-                if ((e.X > est) && (e.Y < nord) && (e.Y > sud)) { Est(); }
-                if ((e.X < ovest) && (e.Y < nord) && (e.Y > sud)) { Ovest(); }
-                if ((e.Y > nord) && (e.X < est) && (e.X > ovest)) { Nord(); }
-                if ((e.Y < sud) && (e.X < est) && (e.X > ovest)) { Sud(); }
-                if ((e.Y > sud) && (e.Y < nord) && (e.X < est) && (e.X > ovest)) { Riposo(); }
+                if ((e.X > est) && (e.Y < nord) && (e.Y > sud)) {
+                    if (!Est_)
+                    {
+                        Sud_ = false;
+                        Nord_ = false;
+                        Ovest_ = false;
+                        Riposo_ = false;
+                        Est();
+                    }
+                }
+                if ((e.X < ovest) && (e.Y < nord) && (e.Y > sud)) {
+                    if (!Ovest_)
+                    {
+                        Sud_ = false;
+                        Nord_ = false;
+                        Est_ = false;
+                        Riposo_ = false;
+                        Ovest();
+                    }
+                     }
+                if ((e.Y > nord) && (e.X < est) && (e.X > ovest)) {
+                    if (!Nord_)
+                    {
+                        Sud_ = false;
+                        Est_ = false;
+                        Ovest_ = false;
+                        Riposo_ = false;
+                        Nord();
+                    } 
+                }
+                if ((e.Y < sud) && (e.X < est) && (e.X > ovest)) {
+                    if (!Sud_)
+                    {
+                        Est_ = false;
+                        Nord_ = false;
+                        Ovest_ = false;
+                        Riposo_ = false;
+                        Sud();
+                    }
+                     }
+                if ((e.Y > sud) && (e.Y < nord) && (e.X < est) && (e.X > ovest)) {
+                    if (!Riposo_)
+                    {
+                        Sud_ = false;
+                        Nord_ = false;
+                        Ovest_ = false;
+                        Est_ = false;
+                        Riposo();
+                    }
+                     }
                 
             }
             );
