@@ -94,11 +94,13 @@ namespace Move_Quiz
         private void Go(int risp)
         {
             //stopTimer();
-            mole_sound.Play();
             correct = ((QuestionsVM)this.DataContext).Verify(risp);
+           
             if (correct)
                 answer_correct.Play(); //suono risposta corretta
-            else answer_wrong.Play(); //suono risposta errata
+            else 
+                answer_wrong.Play(); //suono risposta errata
+            
             risposta = true;
             
             
