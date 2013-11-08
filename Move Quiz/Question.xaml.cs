@@ -22,7 +22,6 @@ namespace Move_Quiz
 {
     public partial class Question : PhoneApplicationPage
     {
-        Accelerometer myAccelerometer;
         int tempo_rimanente;
         DispatcherTimer dt = new DispatcherTimer();
         int punti = 50;
@@ -124,13 +123,13 @@ namespace Move_Quiz
             switch (tempo_rimanente)
             {
                 // cambio il colore degli ultimi secondi del cronometro
-                case 5: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(40, 255, 0, 0)); break; }
-                case 4: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(60, 255, 0, 0)); break; }
-                case 3: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 0, 0)); break; }
-                case 2: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(100, 255, 0, 0)); break; }
-                case 1: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(120, 255, 0, 0)); break; }
-                case 0: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(150, 255, 0, 0)); break; }
-                default: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(17, 255, 255, 255)); break; }
+                case 5: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 0, 0)); break; }
+                case 4: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(100, 255, 0, 0)); break; }
+                case 3: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(120, 255, 0, 0)); break; }
+                case 2: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(140, 255, 0, 0)); break; }
+                case 1: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(160, 255, 0, 0)); break; }
+                case 0: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(180, 255, 0, 0)); break; }
+                default: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 255, 255)); break; }
             }
 
             Counter.Text = tempo_rimanente.ToString();
