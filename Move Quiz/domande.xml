@@ -7,51 +7,71 @@
         <testo>In quale anno ci fu l'attentato alle torri gemelle a New York?</testo>
         <risposta_a>11 Settembre 2001</risposta_a>
         <risposta_b>11 Settembre 2000</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>In quale anno l'uomo mise piede sulla Luna per la prima volta?</testo>
         <risposta_a>1969</risposta_a>
         <risposta_b>1968</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>In quale anno finì la Seconda Guerra Mondiale?</testo>
         <risposta_a>1945</risposta_a>
         <risposta_b>1946</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quanti anni ha l'universo?</testo>
         <risposta_a>13 miliardi</risposta_a>
         <risposta_b>7.5 miliardi</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quale era il cognome di Napoleone?</testo>
         <risposta_a>Bonaparte</risposta_a>
         <risposta_b>Ajaccio</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi fu il dittatore Italiano in carica durante il periodo fascista?</testo>
         <risposta_a>Mussolini</risposta_a>
         <risposta_b>Hitler</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quanti erano i componenti del gruppo inglese The Beatles?</testo>
         <risposta_a>4</risposta_a>
         <risposta_b>6</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quale fu il re di Francia che fu soprannominato "Il Breve"?</testo>
         <risposta_a>Pipino</risposta_a>
         <risposta_b>Carlo</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quali furono, secondo la leggenda, i due fratelli che fondarono Roma?</testo>
         <risposta_a>Romolo &amp; Remo</risposta_a>
         <risposta_b>Raimondo &amp; Romano</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi fu il primo presidente degli USA di colore?</testo>
         <risposta_a>Obama</risposta_a>
         <risposta_b>Martin Luther King</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
     </categoria>
     <categoria id="matematica">
@@ -131,51 +151,71 @@
         <testo>Qual'è la vetta più alta d'Italia?</testo>
         <risposta_a>Monte Bianco</risposta_a>
         <risposta_b>Marmolada</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Qual'è la lettera più usata nell'alfabeto italiano?</testo>
         <risposta_a>I</risposta_a>
         <risposta_b>R</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Di che colore era inizialmente le Coca-Cola?</testo>
         <risposta_a>Verde</risposta_a>
         <risposta_b>Rossa</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>In quale città si trova l'abbazia di Westminster?</testo>
         <risposta_a>Londra</risposta_a>
         <risposta_b>Indianapolis</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Come si chiama il "giallo" dell'uovo?</testo>
         <risposta_a>Tuorlo</risposta_a>
         <risposta_b>Albume</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Che animale è Pippo?</testo>
         <risposta_a>Cane</risposta_a>
         <risposta_b>Pappagallo</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi ha inventato la pila elettrica?</testo>
         <risposta_a>A. Volta</risposta_a>
         <risposta_b>N. Tesla</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Di che colore è la maglia della Fiorentina</testo>
         <risposta_a>Viola</risposta_a>
         <risposta_b>Bianca e blu</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Dove si trova la rotula?</testo>
         <risposta_a>Ginocchio</risposta_a>
         <risposta_b>Braccio</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Qual'è la malattia più diffusa al mondo</testo>
         <risposta_a>Raffreddore</risposta_a>
         <risposta_b>Tubercolosi</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
     </categoria>
   </livello>
@@ -185,51 +225,71 @@
         <testo>Con chi nacque l'ideologia Comunista?</testo>
         <risposta_a>Karl Marx</risposta_a>
         <risposta_b>Mao Tse-tung</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>In quale anno iniziò la Seconda Guerra Mondiale?</testo>
         <risposta_a>1939</risposta_a>
         <risposta_b>1940</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Dove nacque l'Induismo?</testo>
         <risposta_a>Valle dell'Indo</risposta_a>
         <risposta_b>Thailandia</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi è vissuto prima?</testo>
         <risposta_a>Cristo</risposta_a>
         <risposta_b>Giulio Cesare</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Dove nacque Adolf Hitler?</testo>
         <risposta_a>Austria</risposta_a>
         <risposta_b>Germania</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quando fu il Millenium Bug che colpì i sistemi informatici?</testo>
         <risposta_a>2000</risposta_a>
         <risposta_b>2002</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quale periodo storico venne prima?</testo>
         <risposta_a>Età del Bronzo</risposta_a>
         <risposta_b>Età del Ferro</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi è vissuto prima?</testo>
         <risposta_a>Dante Alighieri</risposta_a>
         <risposta_b>Boccaccio</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi fu il primo presidente degli USA?</testo>
         <risposta_a>George Washington</risposta_a>
         <risposta_b>John Adams</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quando fu inventata la Coca-Cola?</testo>
         <risposta_a>1886</risposta_a>
         <risposta_b>1920</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
     </categoria>
     <categoria id="matematica">
@@ -309,55 +369,75 @@
         <testo>Quante furono le fatiche di Ercole?</testo>
         <risposta_a>12</risposta_a>
         <risposta_b>5</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Qual'è l'isola più grande della Terra?</testo>
         <risposta_a>La Groenlandia</risposta_a>
         <risposta_b>L'Inghilterra</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Come si chiamano le uova pregiate che ci vengono fornite dallo storione?</testo>
         <risposta_a>Caviale</risposta_a>
         <risposta_b>Escargot</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Di quanti pezzi dispone ciascun giocatore in una partita di scacchi?</testo>
         <risposta_a>16</risposta_a>
         <risposta_b>12</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quale fiume scorre a Lisbona?</testo>
         <risposta_a>Tago</risposta_a>
         <risposta_b>Ebro</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Che genere di animale è il Macaco?</testo>
         <risposta_a>Scimmia</risposta_a>
         <risposta_b>Cane</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi ha inventato il personaggio di Lucignolo?</testo>
         <risposta_a>C. Collodi</risposta_a>
         <risposta_b>A. Manzoni</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Quale infermità colpì Beethoven?</testo>
         <risposta_a>Sordità</risposta_a>
         <risposta_b>Alzheimer</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Cosa inventò il signor Dunlop</testo>
         <risposta_a>Pneumatico</risposta_a>
         <risposta_b>Motore a scoppio</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
       <domanda>
         <testo>Di che paese era confucio?</testo>
         <risposta_a>Cina</risposta_a>
         <risposta_b>Grecia</risposta_b>
+        <risposta_c>c</risposta_c>
+        <risposta_d>d</risposta_d>
       </domanda>
     </categoria>
   </livello>
-  <livello id="3">
+  <!--<livello id="3">
     <categoria id="storia">
       <domanda>
         <testo>Quando morì Marco Polo?</testo>
@@ -1780,5 +1860,5 @@
         <risposta_b>poco</risposta_b>
       </domanda>
     </categoria>
-  </livello>
+  </livello>-->
 </livelli>

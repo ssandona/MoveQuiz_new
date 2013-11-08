@@ -24,13 +24,12 @@ namespace Move_Quiz
 
         private void GoToGame(object sender, RoutedEventArgs e)
         {
-            string cat = (string)((Button)sender).Tag;
             int liv = (int)((Button)sender).Content;
-            bool ris = ((LivelliVM)(this.DataContext)).Avaiable(liv,cat);
+            bool ris = ((LivelliVM)(this.DataContext)).Avaiable(liv);
             string uri;
             if (ris)
             {   
-                uri = "/Question.xaml?id=" + liv.ToString()+"&cat="+cat;
+                uri = "/Question.xaml?id=" + liv.ToString();
                 //MessageBox.Show("passo alla prossima pagina " + uri);
                 NavigationService.Navigate(new Uri(uri, UriKind.Relative));
             }

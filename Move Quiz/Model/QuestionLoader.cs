@@ -12,7 +12,6 @@ namespace Move_Quiz
     {
         private XDocument doc;
         private int livello;
-        private string categoria;
 
         private static QuestionLoader instance;
         /// <param name="livello">può essere un numero che va da 1 in poi</param>
@@ -34,27 +33,18 @@ namespace Move_Quiz
 
 
 
-
-
-
-
         /// <returns>una domanda casuale dato un livello e una categoria (proprietà del questionLoader)</returns>
-        public List<Question> getQuestions(int livello, string categoria)
+        public List<Question> getQuestions(int livello)
         {
             
             this.doc = XDocument.Load("domande.xml");
             this.livello = livello;
-            this.categoria = categoria;
             List<Question> questions = new List<Question>();
             //seloeziona livello corrente
             var livellocorrente = from query in doc.Descendants("livello")
                       where query.Attribute("id").Value == livello.ToString()
                       select query;
-            //seleziona tutte le domande di una categoria
-            var categoriacorrente = from query in livellocorrente.Descendants("categoria")
-                                    where query.Attribute("id").Value == categoria
-                                    select query;
-            var domande = from query in categoriacorrente.Descendants("domanda")
+            var domande = from query in livellocorrente.Descendants("domanda")
                           select query;
             
             List<XElement> i = domande.ToList();
@@ -76,17 +66,7 @@ namespace Move_Quiz
                 var risposta_b = from query in i[j].Descendants("risposta_b")
                                  select query;
                 string testorisposta_b = risposta_b.ToList()[0].Value;
-                //MessageBox.Show("risposta b: " + testorisposta_b);
 
-                //costruttore di domande "a 2"
-                if (categoria == "cultura" || categoria=="storia")
-                {
-                    questions.Add(new Question(testodomanda, testorisposta_a, testorisposta_b));
-                }
-
-                //domanda "a 4"
-                else
-                {
                     //seleziono risposta_c
                     var risposta_c = from query in i[j].Descendants("risposta_c")
                                      select query;
@@ -98,7 +78,7 @@ namespace Move_Quiz
                     string testorisposta_d = risposta_d.ToList()[0].Value;
 
                     questions.Add(new Question(testodomanda, testorisposta_a, testorisposta_b, testorisposta_c, testorisposta_d));
-                }
+                
             }
             return questions;
         }

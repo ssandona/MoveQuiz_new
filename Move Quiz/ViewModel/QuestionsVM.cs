@@ -13,8 +13,8 @@ namespace Move_Quiz.ViewModel
         private Question actQuestion;
         private int numRisp;
 
-        public QuestionsVM (int liv, string categoria){
-            actLiv = new Livello(liv,categoria);
+        public QuestionsVM (int liv){
+            actLiv = new Livello(liv);
             domande = actLiv.Domande;
             actQuestion = domande[0];
             numRisp = actQuestion.NumRisp;
@@ -58,9 +58,9 @@ namespace Move_Quiz.ViewModel
                 if (value != actQuestion) {
                     actQuestion = value;
                     RaisePropertyChanged("ActQuestion");
-                    for (int i = 0; i < actQuestion.NumRisp;i++ )
+                    for (int i = 1; i < actQuestion.NumRisp+1;i++ )
                     {
-                        RaisePropertyChanged("Risposta" + i);
+                        RaisePropertyChanged("Risposta_" + i);
                     }
 
                 }

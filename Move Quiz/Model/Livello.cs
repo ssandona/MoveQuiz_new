@@ -11,7 +11,6 @@ namespace Move_Quiz
     {
         List<Question> domande;
         int id;
-        string categ;
         QuestionLoader singleton;
         string best_score;
 
@@ -19,11 +18,10 @@ namespace Move_Quiz
         private IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings;
 
 
-        public Livello(int id, string categoria) {
+        public Livello(int id) {
             singleton = QuestionLoader.Instance;
-            domande = singleton.getQuestions(id, categoria);
+            domande = singleton.getQuestions(id);
             this.id = id;
-            categ = categoria;
             if (appSettings.Contains("bestscore" + id))
             {
                 string content = appSettings["bestscore" + id].ToString();
@@ -79,14 +77,6 @@ namespace Move_Quiz
             }
         }
 
-        /// GETTER: ritorna id
-        public string Categoria
-        {
-            get
-            {
-                return categ;
-            }
-        }
 
         /// METODO: ritorna se un livello è sbloccato o bloccato guardando il precedente (?)
         public bool isAvaiable()

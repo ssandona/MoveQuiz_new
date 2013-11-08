@@ -12,18 +12,14 @@ namespace Move_Quiz.ViewModel
     public class LivelliVM : INotifyPropertyChanged
     {
         /// VAR: lista di livelli
-        private ObservableCollection<Livello> listaLivCultura;
-        private ObservableCollection<Livello> listaLivStoria;
-        private ObservableCollection<Livello> listaLivMatematica;
+        private ObservableCollection<Livello> listaLiv;
         QuestionLoader singleton;
 
         /// COSTRUTTORE: carica dallo xml una lista di id e crea i livelli in base all'id
         public LivelliVM()
         {
             singleton = QuestionLoader.Instance;
-            listaLivCultura = new ObservableCollection<Livello>();
-            listaLivStoria = new ObservableCollection<Livello>();
-            listaLivMatematica = new ObservableCollection<Livello>();
+            listaLiv = new ObservableCollection<Livello>();
 
             /// assegna una lista di id di livelli
             int livelli = singleton.caricaLivelli();
@@ -32,57 +28,25 @@ namespace Move_Quiz.ViewModel
             for(int i =1;i<livelli+1;i++)
             {
                 //MessageBox.Show("ciao");
-                listaLivCultura.Add(new Livello(i,"cultura"));
-                listaLivStoria.Add(new Livello(i,"storia"));
-                listaLivMatematica.Add(new Livello(i,"matematica"));
+                listaLiv.Add(new Livello(i));
             }
         }
 
         /// GETTER: listaLiv
-        public ObservableCollection<Livello> ListaLivCultura
+        public ObservableCollection<Livello> ListaLiv
         {
             get
             {
-                return listaLivCultura;
+                return listaLiv;
             }
         }
+  
 
-        public ObservableCollection<Livello> ListaLivStoria
+        public bool Avaiable(int num)
         {
-            get
-            {
-                return listaLivStoria;
-            }
-        }
-
-        public ObservableCollection<Livello> ListaLivMatematica
-        {
-            get
-            {
-                return listaLivMatematica;
-            }
-        }
-
-        public bool Avaiable(int num, string categoria)
-        {
-            if (categoria == "cultura")
-            {
-                if (listaLivCultura[num - 1].isAvaiable())
+                if (listaLiv[num - 1].isAvaiable())
                     return true;
                 else return false;
-            }
-            else if (categoria == "storia")
-                {
-                    if (listaLivStoria[num - 1].isAvaiable())
-                        return true;
-                    else return false;
-                }
-                else
-                    {
-                        if (listaLivStoria[num - 1].isAvaiable())
-                            return true;
-                        else return false;
-                    }
         }
 
 

@@ -4,8 +4,18 @@ using Move_Quiz.ViewModel;
 using System;
 using System.Windows;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
+using System.Windows.Shapes;
 using System.Windows.Navigation;
 using System.Windows.Threading;
+//using Microsoft.Phone.Applications.Common;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Windows.Controls;
+using System.Windows.Documents;
+using System.Windows.Input;
+
 
 
 namespace Move_Quiz
@@ -13,36 +23,52 @@ namespace Move_Quiz
     public partial class Question : PhoneApplicationPage
     {
         Accelerometer myAccelerometer;
-        int timer;
-        bool tempoScaduto = false;
+        int tempo_rimanente;
         DispatcherTimer dt = new DispatcherTimer();
         int punti = 50;
-        int numeroRisp;
         int idLivello;
-        string categoria;
-        bool Nord_;
-        bool Sud_;
-        bool Est_;
-        bool Ovest_;
-        bool Riposo_;
-        bool risposta;
         bool correct;
+
+        DispatcherTimer timer;
+        protected double CursorCenter;
+        protected double accelY = 0;
+        protected double accelX = 0;
+        protected double xdiff;
+        protected double ydiff;
+        protected double width = 480;
+        protected double height = 800;
+        protected double centerX = 480 / 2;
+        protected double centerY = 800 / 2;
+        protected double timerX;
+        protected double timerY;
+        protected bool nord = false;
+        protected bool sud = false;
+        protected bool est = false;
+        protected bool ovest = false;
+        protected bool riposo = false;
+        protected bool risposta = false;
 
         // Constructor
         public Question()
         {
             InitializeComponent();
-            Nord_ = false;
-            Sud_ = false;
-            Est_ = false;
-            Ovest_ = false;
-            Riposo_ = true;
             risposta = false;
             punti = 0;
             dt.Interval = new TimeSpan(0,0,0,1,0); // 1 sec
             dt.Tick += new EventHandler(dt_Tick);
-            avviaAccellerometro();
-            avviaTimer(5);
+            //avviaAccellerometro();
+            avviaTimer(50);
+
+            timer = new DispatcherTimer();
+            // Intervallo ottimo perché l'occhio umano veda qualcosa di fluido
+            timer.Interval = TimeSpan.FromMilliseconds(40);
+            timer.Tick += new EventHandler(timer_Tick);
+
+            // Creo un'istanza di AccelerometerHelper con singleton
+            AccelerometerHelper.Instance.ReadingChanged += new EventHandler<AccelerometerHelperReadingEventArgs>(OnAccelerometerHelperReadingChanged);
+            AccelerometerHelper.Instance.Active = true;
+
+            timer.Start();
 
         }
 
@@ -52,38 +78,37 @@ namespace Move_Quiz
             base.OnNavigatedTo(e);
 
             string liv = string.Empty;
-            string cat = string.Empty;
 
             /// IF: riesco a prendere il livello sul quale sto navigando
-            if (NavigationContext.QueryString.TryGetValue("id", out liv) && NavigationContext.QueryString.TryGetValue("cat", out cat))
+            if (NavigationContext.QueryString.TryGetValue("id", out liv))
             {
                 /// converti la stringa dell id del livello in intero
                 idLivello = Convert.ToInt32(liv);
-                categoria = cat;
-                MessageBox.Show(cat + " " + idLivello);
                 /// crea un nuovo DataContext con il LivelloVM(id) per il binding
-                this.DataContext = new QuestionsVM(idLivello, cat);
-                numeroRisp = ((QuestionsVM)(this.DataContext)).NumRisp;
+                this.DataContext = new QuestionsVM(idLivello);
             }
-            this.DataContext = new QuestionsVM(idLivello, cat);
+            this.DataContext = new QuestionsVM(idLivello);
         }
 
 
         /// METODO: invoca il movimento sul bottone selezionato
         private void Go(int risp)
         {
-            stopTimer();
-            //mole_sound.Play();
+            //stopTimer();
+            mole_sound.Play();
             correct = ((QuestionsVM)this.DataContext).Verify(risp);
+            if (correct)
+                mole_sound.Play(); //suono risposta corretta
+            else mole_sound.Play(); //suono risposta errata
             risposta = true;
+            MessageBox.Show("" + risp + " " + correct);
             
 
             
         }
 
         public void avviaTimer(int tempo) {
-            tempoScaduto = false;
-            timer = tempo;
+            tempo_rimanente = tempo;
             dt.Start();
         }
 
@@ -95,9 +120,9 @@ namespace Move_Quiz
 
         private void dt_Tick(object sender, EventArgs e)
         {
-            timer--;
+            tempo_rimanente--;
             punti--;
-            switch (timer)
+            switch (tempo_rimanente)
             {
                 // cambio il colore degli ultimi secondi del cronometro
                 case 5: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(40, 255, 0, 0)); break; }
@@ -109,13 +134,12 @@ namespace Move_Quiz
                 default: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(17, 255, 255, 255)); break; }
             }
 
-            Counter.Text = timer.ToString();
+            Counter.Text = tempo_rimanente.ToString();
 
-            if (timer == 0)
+            if (tempo_rimanente == 0)
             {
                 dt.Stop();
-                tempoScaduto = true;
-                ricominciaPopUp.IsOpen = true;
+               
 
                 // Vai alla schermata dei punteggi
                 // Hai finito la partita
@@ -130,52 +154,45 @@ namespace Move_Quiz
         public void Nord() {
             this.Go(1);
             /*Cambio dimensione testo*/
-            RispostaNord.FontSize = 80;
+            RispostaNord.FontSize = 40;
             /*Reimposto la dimensione per gli altri testi*/
-            RispostaSud.FontSize = 50;
-            RispostaOvest.FontSize = 50;
-            RispostaEst.FontSize = 50;
+            RispostaSud.FontSize = 30;
+            RispostaOvest.FontSize = 30;
+            RispostaEst.FontSize = 30;
         }
 
         public void Sud() {
-            this.Go(2);
-            RispostaSud.FontSize = 80;
-            RispostaNord.FontSize = 50;
-            RispostaOvest.FontSize = 50;
-            RispostaEst.FontSize = 50;
+            this.Go(3);
+            RispostaSud.FontSize = 40;
+            RispostaNord.FontSize = 30;
+            RispostaOvest.FontSize = 30;
+            RispostaEst.FontSize = 30;
 
         }
 
         public void Est() {
-            if (numeroRisp == 4)
-            {
-                this.Go(3);
-                RispostaOvest.FontSize = 50;
-                RispostaEst.FontSize = 80;
-                RispostaNord.FontSize = 50;
-                RispostaSud.FontSize = 50;
-            }
+                this.Go(2);
+                RispostaOvest.FontSize = 30;
+                RispostaEst.FontSize = 40;
+                RispostaNord.FontSize = 30;
+                RispostaSud.FontSize = 30;
         }
 
         public void Ovest() {
-            if (numeroRisp == 4)
-            {
                 this.Go(4);
-                RispostaOvest.FontSize = 80;
-                RispostaEst.FontSize = 50;
-                RispostaNord.FontSize = 50;
-                RispostaSud.FontSize = 50;
-            }
+                RispostaOvest.FontSize = 40;
+                RispostaEst.FontSize = 30;
+                RispostaNord.FontSize = 30;
+                RispostaSud.FontSize = 30;
+
         }
 
         public void Riposo()
         {
-            RispostaNord.FontSize = 50;
-            RispostaSud.FontSize = 50;
-            RispostaOvest.FontSize = 50;
-            RispostaEst.FontSize = 50;
-            if (risposta)
-            {
+            RispostaNord.FontSize = 30;
+            RispostaSud.FontSize = 30;
+            RispostaOvest.FontSize = 30;
+            RispostaEst.FontSize = 30;
                 if (correct)
                 {
                     bool exist_next = ((QuestionsVM)this.DataContext).nextQuestion(punti);
@@ -184,17 +201,14 @@ namespace Move_Quiz
                         //win_sound.Play();
                         vittoria.IsOpen = true;
                     }
-                    else avviaTimer(10);
                 }
-                else { ricominciaPopUp.IsOpen = true; }
-                risposta = false;
-            }
+                else { ricomincia(); }
         }
 
 
 
 
-
+        /*
         public void avviaAccellerometro()
         {
 
@@ -216,7 +230,7 @@ namespace Move_Quiz
         {
             this.Dispatcher.BeginInvoke(delegate()
             {
-                /* Parametri che uso per la calibrazione */
+                
                 double nord = 0.2;
                 double sud = -0.5;
                 double ovest = -0.2;
@@ -275,13 +289,12 @@ namespace Move_Quiz
                 
             }
             );
-        }
+        }*/
 
-        private void ricomincia(object sender, RoutedEventArgs e)
+        private void ricomincia()
         {
             ((QuestionsVM)this.DataContext).Ricomincia();
-            punti = 50;
-            avviaTimer(10);
+            
         }
 
         private void next_level(object sender, RoutedEventArgs e)
@@ -289,10 +302,117 @@ namespace Move_Quiz
             int next = idLivello + 1;
             string uri;
             if (next <= 10)
-                uri = "/Question.xaml?id=" + next + "cat=" + categoria;
+                uri = "/Question.xaml?id=" + next;
             else uri = "/MainPage.xaml";
 
             NavigationService.Navigate(new Uri(uri, UriKind.Relative));
         }
+
+        
+        /// <summary>
+        /// Ogni tick del timer vado ad invocare i metodi in caso di movimento verso nord, est, sud, ovest...
+        /// </summary>
+        void timer_Tick(object sender, EventArgs e)
+        {
+            CursorCenter = Cursor.Width / 2;
+
+            xdiff = timerX - accelX;
+            ydiff = timerY - accelY;
+
+                accelX = -timerX ;
+                accelY = timerY;
+
+                if ((timerY < -0.45)&&(!sud))
+                {
+                    sud = true;
+                    est = false; nord = false; ovest = false; riposo = false; risposta = true;
+                    Sud();
+                }
+                else if ((timerY > 0.45)&&(!nord))
+                {
+                    nord = true;
+                    sud = false; ovest = false; est = false; riposo = false; risposta = true;
+                    Nord();
+                }
+                else if ((timerX < -0.52)&&(!ovest))
+                {
+                    ovest = true;
+                    sud = false; nord = false; est = false; riposo = false; risposta = true;
+                    Ovest();
+                }
+                else if ((timerX > 0.52) && (!est))
+                {
+                    est = true;
+                    sud = false; ovest = false; nord = false; riposo = false; risposta = true;
+                    Est();
+                }
+                else if((!riposo)&&(timerX>=-0.48)&&(timerX<=0.48)&&(timerY<=0.38)&&(timerY>=-0.38))
+                {
+                    riposo = true;
+                    sud = false; ovest = false; nord = false; est = false;
+                    if (risposta)
+                    {
+                        /*MessageBox.Show("Safe area!");*/
+                        Riposo();
+                        risposta = false;
+                    }
+                }
+        }
+
+        #region Modifica posizione del cursore
+
+        /// <summary>
+        /// Ogni 50 volte al secondo (frequenza di campionamento dell'accelerometro)
+        /// vado a chiamare il metodo UpdateImagePos
+        /// </summary>
+        private void OnAccelerometerHelperReadingChanged(object sender, AccelerometerHelperReadingEventArgs e)
+        {
+            Deployment.Current.Dispatcher.BeginInvoke(() => UpdateImagePos(e));
+        }
+
+        /// <summary>
+        /// Aggiorna la posizione del cursore ridefinendone i margini
+        /// </summary>
+        void UpdateImagePos(AccelerometerHelperReadingEventArgs e)
+        {
+            /* Vado a fare data smoothing dei dati presi dall'accelerometro */
+            timerX = Math.Round(e.OptimalyFilteredAcceleration.X, 3);
+            timerY = Math.Round(e.OptimalyFilteredAcceleration.Y, 3);
+            Cursor.Margin = new Thickness(getX(), getY(), (width - (getX() + Cursor.Width)), (height - (getY() + Cursor.Height)));
+        }
+
+
+        /// <returns> La nuova posizione del margine sinistro del cursore in modo che non esca dal rettangolo</returns>
+        double getX()
+        {
+            var newX = centerX + (-accelX *1.5* centerX);
+            if ((newX - CursorCenter) < 0)
+            {
+                return 0;
+            }
+            else if ((newX + CursorCenter) > width)
+            {
+                return width - 2 * CursorCenter;
+            }
+            return newX - CursorCenter;
+        }
+
+        /// <returns> La nuova posizione del margine superiore del cursore in modo che non esca dal rettangolo</returns>
+        double getY()
+        {
+            var newY = centerY + (-accelY*1.7 * centerY);
+           
+            if ((newY - CursorCenter) < 0)
+            {
+                return 0;
+            }
+            else if ((newY + CursorCenter) > height)
+            {
+                return height - 2 * CursorCenter;
+            }
+            return newY - CursorCenter;
+        }
+        #endregion
+
     }
 }

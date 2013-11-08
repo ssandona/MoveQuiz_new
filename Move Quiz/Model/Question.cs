@@ -52,7 +52,7 @@ namespace Move_Quiz
                 risposte.Add(b);
                 risposte.Add(c);
                 risposte.Add(d);
-                corretta = 0;
+                corretta = 1;
             }
             if ((x >= 0.25) && (x < 0.5))
             {
@@ -60,7 +60,7 @@ namespace Move_Quiz
                 risposte.Add(c);
                 risposte.Add(a);
                 risposte.Add(d);
-                corretta = 2;
+                corretta = 3;
             }
 
             if ((x >= 0.5) && (x < 0.75))
@@ -69,7 +69,7 @@ namespace Move_Quiz
                 risposte.Add(d);
                 risposte.Add(b);
                 risposte.Add(a);
-                corretta = 3;
+                corretta = 4;
             }
             if ((x >= 0.75) && (x < 1.0))
             {
@@ -77,7 +77,7 @@ namespace Move_Quiz
                 risposte.Add(a);
                 risposte.Add(c);
                 risposte.Add(b);
-                corretta = 1;
+                corretta = 2;
             }
         }
 
@@ -101,9 +101,7 @@ namespace Move_Quiz
         {
             get
             {
-                if (risposte.Count == 4)
                     return risposte[2];
-                else return "";
             }
         }
 
@@ -111,13 +109,11 @@ namespace Move_Quiz
         {
             get
             {
-                if (risposte.Count == 4)
                     return risposte[3];
-                else return "";
             }
         }
 
-        //sarebbe bene avere alla creazione risposte random in modo da fare il binding su risp 1,2,3,4
+        
        
        
         /// <summary>
