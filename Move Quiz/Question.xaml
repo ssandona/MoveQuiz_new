@@ -38,7 +38,17 @@
                     </StackPanel>
                 </Border>
             </Popup>-->
-            <MediaElement 
+        <MediaElement 
+    x:Name="answer_wrong" 
+    Source="Sounds/wrong2.mp3" 
+    AutoPlay="False" />
+
+        <MediaElement 
+    x:Name="answer_correct" 
+    Source="Sounds/correct3.mp3" 
+    AutoPlay="False" />
+
+        <MediaElement 
     x:Name="mole_sound" 
     Source="Sounds/pop.mp3" 
     AutoPlay="False" />

@@ -98,10 +98,10 @@ namespace Move_Quiz
             mole_sound.Play();
             correct = ((QuestionsVM)this.DataContext).Verify(risp);
             if (correct)
-                mole_sound.Play(); //suono risposta corretta
-            else mole_sound.Play(); //suono risposta errata
+                answer_correct.Play(); //suono risposta corretta
+            else answer_wrong.Play(); //suono risposta errata
             risposta = true;
-            MessageBox.Show("" + risp + " " + correct);
+            
             
 
             
@@ -198,7 +198,7 @@ namespace Move_Quiz
                     bool exist_next = ((QuestionsVM)this.DataContext).nextQuestion(punti);
                     if (!exist_next)
                     {
-                        //win_sound.Play();
+                        win_sound.Play();
                         vittoria.IsOpen = true;
                     }
                 }
@@ -206,90 +206,6 @@ namespace Move_Quiz
         }
 
 
-
-
-        /*
-        public void avviaAccellerometro()
-        {
-
-            if (!Accelerometer.IsSupported)
-            {
-                throw new Exception("Accellerometro non supportato!!!");
-            }
-            myAccelerometer = new Accelerometer();
-            try
-            {
-                myAccelerometer.Start();
-                myAccelerometer.ReadingChanged += myAccelerometer_ReadingChanged;
-            }
-            catch
-            { throw new Exception("Non sono riuscito ad avviare l'accelerometro"); }
-        }
-
-        void myAccelerometer_ReadingChanged(object sender, AccelerometerReadingEventArgs e)
-        {
-            this.Dispatcher.BeginInvoke(delegate()
-            {
-                
-                double nord = 0.2;
-                double sud = -0.5;
-                double ovest = -0.2;
-                double est = 0.5;
-
-                if ((e.X > est) && (e.Y < nord) && (e.Y > sud)) {
-                    if (!Est_)
-                    {
-                        Sud_ = false;
-                        Nord_ = false;
-                        Ovest_ = false;
-                        Riposo_ = false;
-                        Est();
-                    }
-                }
-                if ((e.X < ovest) && (e.Y < nord) && (e.Y > sud)) {
-                    if (!Ovest_)
-                    {
-                        Sud_ = false;
-                        Nord_ = false;
-                        Est_ = false;
-                        Riposo_ = false;
-                        Ovest();
-                    }
-                     }
-                if ((e.Y > nord) && (e.X < est) && (e.X > ovest)) {
-                    if (!Nord_)
-                    {
-                        Sud_ = false;
-                        Est_ = false;
-                        Ovest_ = false;
-                        Riposo_ = false;
-                        Nord();
-                    } 
-                }
-                if ((e.Y < sud) && (e.X < est) && (e.X > ovest)) {
-                    if (!Sud_)
-                    {
-                        Est_ = false;
-                        Nord_ = false;
-                        Ovest_ = false;
-                        Riposo_ = false;
-                        Sud();
-                    }
-                     }
-                if ((e.Y > sud) && (e.Y < nord) && (e.X < est) && (e.X > ovest)) {
-                    if (!Riposo_)
-                    {
-                        Sud_ = false;
-                        Nord_ = false;
-                        Ovest_ = false;
-                        Est_ = false;
-                        Riposo();
-                    }
-                     }
-                
-            }
-            );
-        }*/
 
         private void ricomincia()
         {
