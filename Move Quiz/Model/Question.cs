@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Windows;
 
 namespace Move_Quiz
 {
@@ -27,57 +28,34 @@ namespace Move_Quiz
             }
         }
 
-        /* Costruttori con override (domande con 1 o 2 risposte) */
-
-        public Question(string testo, string a, string b)
-        {
-            //inserire in risposte random e salvare indice risposta corretta
-            this.testo = testo;
-            risposte = new List<string>();
-            Random rando = new Random();
-            double x = rando.NextDouble();
-            if (x < 0.5) { risposte.Add(b); risposte.Add(a); corretta = 1; }
-            else { risposte.Add(a); risposte.Add(b); corretta = 0; }
-        }
+       
 
         public Question(string testo, string a, string b, string c, string d){
             //generare risposte random
             this.testo = testo;
             risposte = new List<string>();
             Random rando = new Random();
-            double x = rando.NextDouble();
-            if (x < 0.25)
-            {
-                risposte.Add(a);
-                risposte.Add(b);
-                risposte.Add(c);
-                risposte.Add(d);
-                corretta = 1;
-            }
-            if ((x >= 0.25) && (x < 0.5))
-            {
-                risposte.Add(b);
-                risposte.Add(c);
-                risposte.Add(a);
-                risposte.Add(d);
-                corretta = 3;
-            }
 
-            if ((x >= 0.5) && (x < 0.75))
+            //string debug="";
+            List<int> domande = new List<int>();
+            while (domande.Count != 4)
             {
-                risposte.Add(c);
-                risposte.Add(d);
-                risposte.Add(b);
-                risposte.Add(a);
-                corretta = 4;
+                //genero un numero da 0 a 3
+                int x = rando.Next(0, 4);
+                if (!domande.Contains(x)) {
+                    domande.Add(x);
+                    //debug += x;
+                }
             }
-            if ((x >= 0.75) && (x < 1.0))
+           // MessageBox.Show(debug);
+
+            //ora inserisco in lista le 4 domande secondo la permutazione 2013, 3021, 0312, ...
+            for (int s = 0; s < 4; s++)
             {
-                risposte.Add(d);
-                risposte.Add(a);
-                risposte.Add(c);
-                risposte.Add(b);
-                corretta = 2;
+                if (domande[s] == 0) { risposte.Add(a); corretta = s+1; }
+                if (domande[s] == 1) risposte.Add(b);
+                if (domande[s] == 2) risposte.Add(c);
+                if (domande[s] == 3) risposte.Add(d);
             }
         }
 

@@ -22,7 +22,6 @@ namespace Move_Quiz
 {
     public partial class Question : PhoneApplicationPage
     {
-        Accelerometer myAccelerometer;
         int tempo_rimanente;
         DispatcherTimer dt = new DispatcherTimer();
         int punti = 50;
@@ -98,10 +97,10 @@ namespace Move_Quiz
             mole_sound.Play();
             correct = ((QuestionsVM)this.DataContext).Verify(risp);
             if (correct)
-                mole_sound.Play(); //suono risposta corretta
-            else mole_sound.Play(); //suono risposta errata
+                answer_correct.Play(); //suono risposta corretta
+            else answer_wrong.Play(); //suono risposta errata
             risposta = true;
-            MessageBox.Show("" + risp + " " + correct);
+            
             
 
             
@@ -115,7 +114,6 @@ namespace Move_Quiz
         public void stopTimer()
         {
             dt.Stop();
-            MessageBox.Show("timer bloccato");
         }
 
         private void dt_Tick(object sender, EventArgs e)
@@ -125,13 +123,13 @@ namespace Move_Quiz
             switch (tempo_rimanente)
             {
                 // cambio il colore degli ultimi secondi del cronometro
-                case 5: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(40, 255, 0, 0)); break; }
-                case 4: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(60, 255, 0, 0)); break; }
-                case 3: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 0, 0)); break; }
-                case 2: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(100, 255, 0, 0)); break; }
-                case 1: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(120, 255, 0, 0)); break; }
-                case 0: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(150, 255, 0, 0)); break; }
-                default: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(17, 255, 255, 255)); break; }
+                case 5: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 0, 0)); break; }
+                case 4: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(100, 255, 0, 0)); break; }
+                case 3: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(120, 255, 0, 0)); break; }
+                case 2: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(140, 255, 0, 0)); break; }
+                case 1: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(160, 255, 0, 0)); break; }
+                case 0: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(180, 255, 0, 0)); break; }
+                default: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 255, 255)); break; }
             }
 
             Counter.Text = tempo_rimanente.ToString();
@@ -139,7 +137,8 @@ namespace Move_Quiz
             if (tempo_rimanente == 0)
             {
                 dt.Stop();
-               
+                timer.Stop();
+                sconfittaPopUp.IsOpen = true;
 
                 // Vai alla schermata dei punteggi
                 // Hai finito la partita
@@ -198,103 +197,36 @@ namespace Move_Quiz
                     bool exist_next = ((QuestionsVM)this.DataContext).nextQuestion(punti);
                     if (!exist_next)
                     {
-                        //win_sound.Play();
+                        win_sound.Play();
                         vittoria.IsOpen = true;
+                        timer.Stop();
+                        stopTimer();
                     }
                 }
-                else { ricomincia(); }
+                else { ((QuestionsVM)this.DataContext).Ricomincia(); }
         }
 
 
 
-
-        /*
-        public void avviaAccellerometro()
+        private void ricomincia(object sender, RoutedEventArgs e)
         {
-
-            if (!Accelerometer.IsSupported)
-            {
-                throw new Exception("Accellerometro non supportato!!!");
-            }
-            myAccelerometer = new Accelerometer();
-            try
-            {
-                myAccelerometer.Start();
-                myAccelerometer.ReadingChanged += myAccelerometer_ReadingChanged;
-            }
-            catch
-            { throw new Exception("Non sono riuscito ad avviare l'accelerometro"); }
-        }
-
-        void myAccelerometer_ReadingChanged(object sender, AccelerometerReadingEventArgs e)
-        {
-            this.Dispatcher.BeginInvoke(delegate()
-            {
-                
-                double nord = 0.2;
-                double sud = -0.5;
-                double ovest = -0.2;
-                double est = 0.5;
-
-                if ((e.X > est) && (e.Y < nord) && (e.Y > sud)) {
-                    if (!Est_)
-                    {
-                        Sud_ = false;
-                        Nord_ = false;
-                        Ovest_ = false;
-                        Riposo_ = false;
-                        Est();
-                    }
-                }
-                if ((e.X < ovest) && (e.Y < nord) && (e.Y > sud)) {
-                    if (!Ovest_)
-                    {
-                        Sud_ = false;
-                        Nord_ = false;
-                        Est_ = false;
-                        Riposo_ = false;
-                        Ovest();
-                    }
-                     }
-                if ((e.Y > nord) && (e.X < est) && (e.X > ovest)) {
-                    if (!Nord_)
-                    {
-                        Sud_ = false;
-                        Est_ = false;
-                        Ovest_ = false;
-                        Riposo_ = false;
-                        Nord();
-                    } 
-                }
-                if ((e.Y < sud) && (e.X < est) && (e.X > ovest)) {
-                    if (!Sud_)
-                    {
-                        Est_ = false;
-                        Nord_ = false;
-                        Ovest_ = false;
-                        Riposo_ = false;
-                        Sud();
-                    }
-                     }
-                if ((e.Y > sud) && (e.Y < nord) && (e.X < est) && (e.X > ovest)) {
-                    if (!Riposo_)
-                    {
-                        Sud_ = false;
-                        Nord_ = false;
-                        Ovest_ = false;
-                        Est_ = false;
-                        Riposo();
-                    }
-                     }
-                
-            }
-            );
-        }*/
-
-        private void ricomincia()
-        {
-            ((QuestionsVM)this.DataContext).Ricomincia();
+            sconfittaPopUp.IsOpen = false;
+            //suono inizio
+            punti = 50;
+            timer.Start();
+            avviaTimer(50);
             
+            
+            
+        }
+
+        private void esci(object sender, RoutedEventArgs e)
+        {
+            sconfittaPopUp.IsOpen = false;
+            string uri = "/PagLivelli.xaml?Refresh=true";
+            //MessageBox.Show("passo alla prossima pagina " + uri);
+            NavigationService.Navigate(new Uri(uri, UriKind.Relative));
+
         }
 
         private void next_level(object sender, RoutedEventArgs e)
@@ -302,7 +234,7 @@ namespace Move_Quiz
             int next = idLivello + 1;
             string uri;
             if (next <= 10)
-                uri = "/Question.xaml?id=" + next;
+                uri = "/Question.xaml?Refresh=true&id=" + next;
             else uri = "/MainPage.xaml";
 
             NavigationService.Navigate(new Uri(uri, UriKind.Relative));
@@ -357,6 +289,18 @@ namespace Move_Quiz
                         risposta = false;
                     }
                 }
+        }
+
+        //Al click del back button chiedo se si è sicuri di uscire. Se si torno alla pagina dei livelli a cui applico un refresh
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            if (vittoria.IsOpen) { e.Cancel = true; }
+            else { 
+            
+            string uri = "/PagLivelli.xaml?Refresh=true";
+
+            NavigationService.Navigate(new Uri(uri, UriKind.Relative));}
+
         }
 
         #region Modifica posizione del cursore

@@ -121,8 +121,13 @@
     <Content Include="Images\locked.png" />
     <Content Include="Images\sfondo.png" />
     <Content Include="Images\unlocked.png" />
+    <Content Include="Sounds\correct1.mp3" />
+    <Content Include="Sounds\correct2.mp3" />
+    <Content Include="Sounds\correct3.mp3" />
     <Content Include="Sounds\pop.mp3" />
     <Content Include="Sounds\win.mp3" />
+    <Content Include="Sounds\wrong1.mp3" />
+    <Content Include="Sounds\wrong2.mp3" />
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
   <ItemGroup>
