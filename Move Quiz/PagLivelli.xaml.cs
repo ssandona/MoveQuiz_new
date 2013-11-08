@@ -19,7 +19,7 @@ namespace Move_Quiz
         public PagLivelli()
         {
             InitializeComponent();
-            this.DataContext = new LivelliVM();
+            this.DataContext = App.livelliVM();
         }
 
         private void GoToGame(object sender, RoutedEventArgs e)
@@ -35,5 +35,13 @@ namespace Move_Quiz
             }
 
         }
+
+        //Premendo il Back button voglio tornare alla main page e non nella pagina prima
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/MainPage.xaml?Refresh=true", UriKind.Relative));
+        }
+
+        
     }
 }

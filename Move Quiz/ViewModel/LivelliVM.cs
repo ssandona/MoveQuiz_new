@@ -32,6 +32,11 @@ namespace Move_Quiz.ViewModel
             }
         }
 
+        public Livello getLivello(int id)
+        {
+            return listaLiv[id - 1];
+        }
+
         /// GETTER: listaLiv
         public ObservableCollection<Livello> ListaLiv
         {

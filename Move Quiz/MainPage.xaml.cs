@@ -25,5 +25,15 @@ namespace Move_Quiz
         {
             NavigationService.Navigate(new Uri("/PagLivelli.xaml", UriKind.Relative));
         }
+
+        //Premendo il Back button chiedo se si è sicuri di uscire. Se si non torno alla pagina di prima ma esco dall'applicazione (cancello la storia delle pagine navigate)
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            while (NavigationService.CanGoBack)
+            {
+                NavigationService.RemoveBackEntry();
+            }
+
+        }
     }
 }

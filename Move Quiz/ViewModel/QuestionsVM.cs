@@ -12,13 +12,28 @@ namespace Move_Quiz.ViewModel
         private List<Question> domande;
         private Question actQuestion;
         private int numRisp;
+        private int num_actQuestion;
 
         public QuestionsVM (int liv){
-            actLiv = new Livello(liv);
+            actLiv = App.getLivello(liv);
             domande = actLiv.Domande;
             actQuestion = domande[0];
+            num_actQuestion = 1;
             numRisp = actQuestion.NumRisp;
         }
+
+        public int Num_actQuestion {
+            get {
+                return num_actQuestion;
+            }
+            set {
+                if (value != num_actQuestion) {
+                    num_actQuestion = value;
+                    RaisePropertyChanged("Num_actQuestion");
+                }
+            }
+        }
+
 
         public bool nextQuestion(int punti)
         {
@@ -26,10 +41,13 @@ namespace Move_Quiz.ViewModel
             if (i < (domande.Count - 1))
             {
                 ActQuestion = domande[i + 1];
+                int a=num_actQuestion+1;
+                Num_actQuestion = a;
                 return true;
             }
             else { 
-                actLiv.Best_Score=punti.ToString(); 
+                actLiv.Best_Score=punti.ToString();
+                Num_actQuestion = 1;
                 return false; 
             }
         }
@@ -42,6 +60,7 @@ namespace Move_Quiz.ViewModel
 
         public void Ricomincia() {
             ActQuestion = domande[0];
+            Num_actQuestion = 1;
         }
 
         public bool Verify(int risp) {

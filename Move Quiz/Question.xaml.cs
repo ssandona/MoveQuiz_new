@@ -115,7 +115,6 @@ namespace Move_Quiz
         public void stopTimer()
         {
             dt.Stop();
-            MessageBox.Show("timer bloccato");
         }
 
         private void dt_Tick(object sender, EventArgs e)
@@ -139,7 +138,8 @@ namespace Move_Quiz
             if (tempo_rimanente == 0)
             {
                 dt.Stop();
-               
+                timer.Stop();
+                sconfittaPopUp.IsOpen = true;
 
                 // Vai alla schermata dei punteggi
                 // Hai finito la partita
@@ -200,17 +200,34 @@ namespace Move_Quiz
                     {
                         win_sound.Play();
                         vittoria.IsOpen = true;
+                        timer.Stop();
+                        stopTimer();
                     }
                 }
-                else { ricomincia(); }
+                else { ((QuestionsVM)this.DataContext).Ricomincia(); }
         }
 
 
 
-        private void ricomincia()
+        private void ricomincia(object sender, RoutedEventArgs e)
         {
-            ((QuestionsVM)this.DataContext).Ricomincia();
+            sconfittaPopUp.IsOpen = false;
+            //suono inizio
+            punti = 50;
+            timer.Start();
+            avviaTimer(50);
             
+            
+            
+        }
+
+        private void esci(object sender, RoutedEventArgs e)
+        {
+            sconfittaPopUp.IsOpen = false;
+            string uri = "/PagLivelli.xaml?Refresh=true";
+            //MessageBox.Show("passo alla prossima pagina " + uri);
+            NavigationService.Navigate(new Uri(uri, UriKind.Relative));
+
         }
 
         private void next_level(object sender, RoutedEventArgs e)
@@ -218,7 +235,7 @@ namespace Move_Quiz
             int next = idLivello + 1;
             string uri;
             if (next <= 10)
-                uri = "/Question.xaml?id=" + next;
+                uri = "/Question.xaml?Refresh=true&id=" + next;
             else uri = "/MainPage.xaml";
 
             NavigationService.Navigate(new Uri(uri, UriKind.Relative));
@@ -273,6 +290,18 @@ namespace Move_Quiz
                         risposta = false;
                     }
                 }
+        }
+
+        //Al click del back button chiedo se si è sicuri di uscire. Se si torno alla pagina dei livelli a cui applico un refresh
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            if (vittoria.IsOpen) { e.Cancel = true; }
+            else { 
+            
+            string uri = "/PagLivelli.xaml?Refresh=true";
+
+            NavigationService.Navigate(new Uri(uri, UriKind.Relative));}
+
         }
 
         #region Modifica posizione del cursore

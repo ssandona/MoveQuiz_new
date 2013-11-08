@@ -28,16 +28,17 @@
                     </StackPanel>
                 </Border>
             </Popup>
-            <!--<Popup x:Name="ricominciaPopUp" Grid.Row="1" >
+            <Popup x:Name="sconfittaPopUp" Grid.Row="1" >
                 <Border  BorderThickness="2"  BorderBrush="{StaticResource PhoneAccentBrush}">
                     <StackPanel Background="LightBlue" Height="490" Width="460">
                         <Image Margin="0 30 0 20" Grid.Row="0" Source="/Images/vittoria.png" HorizontalAlignment="Center" Stretch="Uniform" Width="250" />
                         <TextBlock Grid.Row="1" Text="Risposta errata" TextAlignment="Center" FontSize="40" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Margin="10,0" />
-                        <Button Grid.Row="2" x:Name="btn_ricomincia"  Content="Continue" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="ricomincia"/>
+                        <Button Grid.Row="2" x:Name="btn_ricomincia"  Content="Ricomincia" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="ricomincia"/>
+                    <Button Grid.Row="2" x:Name="btn_esci"  Content="Esci" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="esci"/>
 
-                    </StackPanel>
+                </StackPanel>
                 </Border>
-            </Popup>-->
+            </Popup>
         <MediaElement 
     x:Name="answer_wrong" 
     Source="Sounds/wrong2.mp3" 
@@ -67,7 +68,8 @@
         <TextBlock Name="RispostaEst" HorizontalAlignment="Left" Margin="70,396,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActQuestion.Risposta_2}" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="Yellow" TextAlignment="Center" FontWeight="Bold"/>
         <TextBlock Name="RispostaSud" HorizontalAlignment="Left" Margin="70,436,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActQuestion.Risposta_3}" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="Blue" TextAlignment="Center" FontWeight="Bold"/>
         <TextBlock Name="RispostaOvest" HorizontalAlignment="Left" Margin="70,476,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActQuestion.Risposta_4}" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="Red" TextAlignment="Center" FontWeight="Bold"/>
-        <TextBlock Name="Counter" HorizontalAlignment="Left" Margin="75,105,0,0" Grid.Row="1" TextWrapping="Wrap" Text="50" VerticalAlignment="Top" Height="558" Width="335" Canvas.ZIndex="-5" FontSize="300" Foreground="#66FFFFFF" TextAlignment="Center"/>
+        <TextBlock Name="Counter" HorizontalAlignment="Left" Margin="75,105,0,0" Grid.Row="1" TextWrapping="Wrap" Text="50" VerticalAlignment="Top" Height="558" Width="335" Canvas.ZIndex="-5" FontSize="280" Foreground="#66FFFFFF" TextAlignment="Center"/>
+        <TextBlock Name="DomandaNum" HorizontalAlignment="Left" Margin="70,580,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding Num_actQuestion, StringFormat='Domanda: {0} /10'}" VerticalAlignment="Top" Width="335" FontSize="30"  TextAlignment="Center" FontWeight="Bold"/>
 
         <!--<Grid x:Name="ContentCenter" Grid.Row="1">
                 <Grid.ColumnDefinitions>
