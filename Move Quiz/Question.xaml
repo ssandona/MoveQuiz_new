@@ -14,8 +14,10 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
-
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/sfondo.png" Stretch="UniformToFill"/>
+        </Grid.Background>
         <!--ContentPanel - place additional content here-->
         <!--<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">-->
        <Popup x:Name="vittoria" Grid.Row="1" >
@@ -48,10 +50,6 @@
     Source="Sounds/win.mp3" 
     AutoPlay="False" />
         <Image Margin="291,335,139,353" Height="80" Name="Cursor" Width="50" Source="/cursor.png" Grid.Row="1" Canvas.ZIndex="800"  />
-        <Rectangle Fill="Blue" HorizontalAlignment="Left" Height="100" Margin="0,668,0,0" Stroke="Black" VerticalAlignment="Top" Width="480" Grid.Row="1" Canvas.ZIndex="-50"/>
-        <Rectangle Fill="LimeGreen" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="480" Grid.Row="1" Canvas.ZIndex="-50"/>
-        <Rectangle Fill="Yellow" HorizontalAlignment="Left" Height="568" Margin="410,100,0,0" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="70" Canvas.ZIndex="-10"/>
-        <Rectangle Fill="Red" HorizontalAlignment="Left" Height="568" Margin="0,100,0,0" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="70" Canvas.ZIndex="-10"/>
         <TextBlock HorizontalAlignment="Left" Margin="70,245,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActQuestion.Testo}" VerticalAlignment="Top" Height="111" Width="335" FontSize="25" TextAlignment="Center"/>
         <TextBlock Name="RispostaNord" HorizontalAlignment="Left" Margin="70,356,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActQuestion.Risposta_1}" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="LimeGreen" TextAlignment="Center" FontWeight="Bold"/>
         <TextBlock Name="RispostaEst" HorizontalAlignment="Left" Margin="70,396,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActQuestion.Risposta_2}" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="Yellow" TextAlignment="Center" FontWeight="Bold"/>

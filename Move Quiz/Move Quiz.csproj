@@ -119,6 +119,8 @@
     <Content Include="dll\Microsoft.Phone.Controls.Toolkit.dll" />
     <Content Include="domande.xml" />
     <Content Include="Images\locked.png" />
+    <Content Include="Images\sfondo.png" />
+    <Content Include="Images\unlocked.png" />
     <Content Include="Sounds\pop.mp3" />
     <Content Include="Sounds\win.mp3" />
     <Content Include="SplashScreenImage.jpg" />
