@@ -273,23 +273,23 @@
       <domanda>
         <testo>Chi è vissuto prima?</testo>
         <risposta_a>Dante Alighieri</risposta_a>
-        <risposta_b>Boccaccio</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_b>Giovanni Boccaccio</risposta_b>
+        <risposta_c>Galileo Galilei</risposta_c>
+        <risposta_d>Giuseppe Parini</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi fu il primo presidente degli USA?</testo>
         <risposta_a>George Washington</risposta_a>
         <risposta_b>John Adams</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Theodore Roosevelt</risposta_c>
+        <risposta_d>Franklin Roosevelt</risposta_d>
       </domanda>
       <domanda>
         <testo>Quando fu inventata la Coca-Cola?</testo>
         <risposta_a>1886</risposta_a>
         <risposta_b>1920</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>1848</risposta_c>
+        <risposta_d>1917</risposta_d>
       </domanda>
     </categoria>
     <categoria id="matematica">
