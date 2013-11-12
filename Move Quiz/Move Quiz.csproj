@@ -118,8 +118,15 @@
     <Content Include="cursor.png" />
     <Content Include="dll\Microsoft.Phone.Controls.Toolkit.dll" />
     <Content Include="domande.xml" />
+    <Content Include="Images\back1.jpg" />
+    <Content Include="Images\back2.jpg" />
+    <Content Include="Images\back3.jpg" />
+    <Content Include="Images\back4.jpg" />
+    <Content Include="Images\icon.png" />
+    <Content Include="Images\icon_quiz.png" />
     <Content Include="Images\locked.png" />
     <Content Include="Images\sfondo.png" />
+    <Content Include="Images\tile.png" />
     <Content Include="Images\unlocked.png" />
     <Content Include="Sounds\correct1.mp3" />
     <Content Include="Sounds\correct2.mp3" />
@@ -151,7 +158,9 @@
       <AutoFill>True</AutoFill>
     </BlendEmbeddedFont>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="back4.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

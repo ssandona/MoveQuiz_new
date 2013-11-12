@@ -20,23 +20,49 @@
         </Grid.Background>
         <!--ContentPanel - place additional content here-->
         <!--<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">-->
-        <Popup x:Name="vittoria" Grid.Row="1" >
-            <Border  BorderThickness="2"  BorderBrush="{StaticResource PhoneAccentBrush}">
-                <StackPanel Background="LightBlue" Height="490" Width="460">
+        <Popup x:Name="vittoria" Margin="23,130,0,0" >
+            <Border  BorderThickness="2">
+            	<Border.BorderBrush>
+            		<RadialGradientBrush>
+            			<GradientStop Color="Black" Offset="0"/>
+            			<GradientStop Color="White" Offset="1"/>
+            		</RadialGradientBrush>
+            	</Border.BorderBrush>
+            	<Border.Background>
+            		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            			<GradientStop Color="Black" Offset="0"/>
+            			<GradientStop Color="White" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Border.Background>
+                <StackPanel Background="#FF007CA4" Height="490" Width="427" Margin="0">
                     <Image Margin="0 30 0 20" Grid.Row="0" Source="/Images/vittoria.png" HorizontalAlignment="Center" Stretch="Uniform" Width="250" />
-                    <TextBlock Grid.Row="1" Text="Hai Vinto" TextAlignment="Center" FontSize="40" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Margin="10,0" />
-                    <Button Grid.Row="2" x:Name="btn_continue"  Content="Continue" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="next_level"/>
+                    <TextBlock Grid.Row="1" TextAlignment="Center" FontSize="53.333" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Margin="10,0" >
+                    	<Run Text="Livello"/>
+                    	<LineBreak/>
+                    	<Run Text="completato!"/>
+                    </TextBlock>
+                    <Button Grid.Row="2" x:Name="btn_continue"  Content="Successivo" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Click="next_level" Height="146" Margin="10,0" FontSize="33.333"/>
 
                 </StackPanel>
             </Border>
         </Popup>
-        <Popup x:Name="sconfittaPopUp" Grid.Row="1" >
-            <Border  BorderThickness="2"  BorderBrush="{StaticResource PhoneAccentBrush}">
-                <StackPanel Background="LightBlue" Height="490" Width="460">
+        <Popup x:Name="sconfittaPopUp" Height="573" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="460" Margin="23,0,0,105" >
+            <Border  BorderThickness="2">
+            	<Border.BorderBrush>
+            		<RadialGradientBrush>
+            			<GradientStop Color="Black" Offset="0"/>
+            			<GradientStop Color="White" Offset="1"/>
+            		</RadialGradientBrush>
+            	</Border.BorderBrush>
+                <StackPanel Background="#FF007CA4" Height="572" Width="433" Margin="0">
                     <Image Margin="0 30 0 20" Grid.Row="0" Source="/Images/vittoria.png" HorizontalAlignment="Center" Stretch="Uniform" Width="250" />
-                    <TextBlock Grid.Row="1" Text="Risposta errata" TextAlignment="Center" FontSize="40" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Margin="10,0" />
-                    <Button Grid.Row="2" x:Name="btn_ricomincia"  Content="Ricomincia" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="ricomincia"/>
-                    <Button Grid.Row="2" x:Name="btn_esci"  Content="Esci" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Width="215" Click="esci"/>
+                    <TextBlock Grid.Row="1" TextAlignment="Center" FontSize="60" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Margin="10,0" >
+                    	<Run Text="Risposta"/>
+                    	<LineBreak/>
+                    	<Run Text="errata"/>
+                    </TextBlock>
+                    <Button Grid.Row="2" x:Name="btn_ricomincia"  Content="Ricomincia" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Click="ricomincia" Height="126" Margin="64,0" FontSize="40"/>
+                    <Button x:Name="btn_esci"  Content="Esci" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" Click="esci" Margin="64,0" Height="126" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontSize="40"/>
 
                 </StackPanel>
             </Border>

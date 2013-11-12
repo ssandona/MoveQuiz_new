@@ -7,71 +7,71 @@
         <testo>In quale anno ci fu l'attentato alle torri gemelle a New York?</testo>
         <risposta_a>11 Settembre 2001</risposta_a>
         <risposta_b>11 Settembre 2000</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>21 Settembre 2000</risposta_c>
+        <risposta_d>21 Settembre 2001</risposta_d>
       </domanda>
       <domanda>
         <testo>In quale anno l'uomo mise piede sulla Luna per la prima volta?</testo>
         <risposta_a>1969</risposta_a>
         <risposta_b>1968</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>1967</risposta_c>
+        <risposta_d>1972</risposta_d>
       </domanda>
       <domanda>
         <testo>In quale anno finì la Seconda Guerra Mondiale?</testo>
         <risposta_a>1945</risposta_a>
         <risposta_b>1946</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>1947</risposta_c>
+        <risposta_d>1939</risposta_d>
       </domanda>
       <domanda>
         <testo>Quanti anni ha l'universo?</testo>
         <risposta_a>13 miliardi</risposta_a>
         <risposta_b>7.5 miliardi</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>2.1 miliardi</risposta_c>
+        <risposta_d>7 milioni</risposta_d>
       </domanda>
       <domanda>
         <testo>Quale era il cognome di Napoleone?</testo>
         <risposta_a>Bonaparte</risposta_a>
         <risposta_b>Ajaccio</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Lelouch</risposta_c>
+        <risposta_d>Eiffel</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi fu il dittatore Italiano in carica durante il periodo fascista?</testo>
         <risposta_a>Mussolini</risposta_a>
         <risposta_b>Hitler</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Badoglio</risposta_c>
+        <risposta_d>Ciano</risposta_d>
       </domanda>
       <domanda>
         <testo>Quanti erano i componenti del gruppo inglese The Beatles?</testo>
         <risposta_a>4</risposta_a>
         <risposta_b>6</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>3</risposta_c>
+        <risposta_d>7</risposta_d>
       </domanda>
       <domanda>
         <testo>Quale fu il re di Francia che fu soprannominato "Il Breve"?</testo>
         <risposta_a>Pipino</risposta_a>
         <risposta_b>Carlo</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Francesco</risposta_c>
+        <risposta_d>Gustavo</risposta_d>
       </domanda>
       <domanda>
         <testo>Quali furono, secondo la leggenda, i due fratelli che fondarono Roma?</testo>
         <risposta_a>Romolo &amp; Remo</risposta_a>
         <risposta_b>Raimondo &amp; Romano</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Marco &amp; Tullio</risposta_c>
+        <risposta_d>Cesare &amp; Giulio</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi fu il primo presidente degli USA di colore?</testo>
-        <risposta_a>Obama</risposta_a>
+        <risposta_a>Barack Obama</risposta_a>
         <risposta_b>Martin Luther King</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Thomas Jefferson</risposta_c>
+        <risposta_d>Abraham Lincoln</risposta_d>
       </domanda>
     </categoria>
     <categoria id="matematica">
@@ -239,36 +239,36 @@
         <testo>Dove nacque l'Induismo?</testo>
         <risposta_a>Valle dell'Indo</risposta_a>
         <risposta_b>Thailandia</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Giappone</risposta_c>
+        <risposta_d>Pakistan</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi è vissuto prima?</testo>
         <risposta_a>Cristo</risposta_a>
         <risposta_b>Giulio Cesare</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Carlo Magno</risposta_c>
+        <risposta_d>San Francesco</risposta_d>
       </domanda>
       <domanda>
         <testo>Dove nacque Adolf Hitler?</testo>
         <risposta_a>Austria</risposta_a>
         <risposta_b>Germania</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Francia</risposta_c>
+        <risposta_d>Norvegia</risposta_d>
       </domanda>
       <domanda>
         <testo>Quando fu il Millenium Bug che colpì i sistemi informatici?</testo>
         <risposta_a>2000</risposta_a>
         <risposta_b>2002</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>1998</risposta_c>
+        <risposta_d>2001</risposta_d>
       </domanda>
       <domanda>
         <testo>Quale periodo storico venne prima?</testo>
         <risposta_a>Età del Bronzo</risposta_a>
         <risposta_b>Età del Ferro</risposta_b>
-        <risposta_c>c</risposta_c>
-        <risposta_d>d</risposta_d>
+        <risposta_c>Età preistorica</risposta_c>
+        <risposta_d>Età contemporanea</risposta_d>
       </domanda>
       <domanda>
         <testo>Chi è vissuto prima?</testo>
