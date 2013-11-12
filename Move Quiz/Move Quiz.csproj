@@ -123,7 +123,6 @@
     <Content Include="Images\back3.jpg" />
     <Content Include="Images\back4.jpg" />
     <Content Include="Images\icon.png" />
-    <Content Include="Images\icon_quiz.png" />
     <Content Include="Images\locked.png" />
     <Content Include="Images\sfondo.png" />
     <Content Include="Images\tile.png" />
