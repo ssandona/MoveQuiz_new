@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Windows;
 using System.Xml.Linq;
 
 namespace Move_Quiz
@@ -14,8 +12,7 @@ namespace Move_Quiz
         private int livello;
 
         private static QuestionLoader instance;
-        /// <param name="livello">può essere un numero che va da 1 in poi</param>
-        /// <param name="categoria">può essere "storia", "matematica", "varie"</param>
+
         private QuestionLoader(){
         }
 
@@ -77,7 +74,7 @@ namespace Move_Quiz
                                      select query;
                     string testorisposta_d = risposta_d.ToList()[0].Value;
 
-                    questions.Add(new Question(testodomanda, testorisposta_a, testorisposta_b, testorisposta_c, testorisposta_d));
+                    questions.Add(new Question(testodomanda, testorisposta_a, testorisposta_b, testorisposta_c, testorisposta_d, j));
                 
             }
             return questions;

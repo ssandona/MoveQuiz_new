@@ -1,14 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
 namespace Move_Quiz
@@ -21,9 +12,17 @@ namespace Move_Quiz
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Gioca_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Uri("/PagLivelli.xaml", UriKind.Relative));
+        }
+        private void Info_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Info.xaml", UriKind.Relative));
+        }
+        private void Altro_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Altro.xaml", UriKind.Relative));
         }
 
         //Premendo il Back button chiedo se si è sicuri di uscire. Se si non torno alla pagina di prima ma esco dall'applicazione (cancello la storia delle pagine navigate)

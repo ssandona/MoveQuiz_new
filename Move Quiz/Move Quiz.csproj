@@ -64,8 +64,14 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Altro.xaml.cs">
+      <DependentUpon>Altro.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Info.xaml.cs">
+      <DependentUpon>Info.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\AccelerometerHelper.cs" />
     <Compile Include="Model\ApplicationSettingHelper.cs" />
@@ -91,6 +97,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="Altro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -117,13 +131,16 @@
     </Content>
     <Content Include="cursor.png" />
     <Content Include="dll\Microsoft.Phone.Controls.Toolkit.dll" />
-    <Content Include="domande.xml" />
+    <Content Include="domande.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Images\back1.jpg" />
     <Content Include="Images\back2.jpg" />
     <Content Include="Images\back3.jpg" />
     <Content Include="Images\back4.jpg" />
     <Content Include="Images\icon.png" />
     <Content Include="Images\locked.png" />
+    <Content Include="Images\no1.png" />
     <Content Include="Images\sfondo.png" />
     <Content Include="Images\tile.png" />
     <Content Include="Images\unlocked.png" />

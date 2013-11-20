@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
 
 namespace Move_Quiz.ViewModel
 {
@@ -11,7 +8,6 @@ namespace Move_Quiz.ViewModel
         private Livello actLiv;
         private List<Question> domande;
         private Question actQuestion;
-        private int numRisp;
         private int num_actQuestion;
 
         public QuestionsVM (int liv){
@@ -19,7 +15,6 @@ namespace Move_Quiz.ViewModel
             domande = actLiv.Domande;
             actQuestion = domande[0];
             num_actQuestion = 1;
-            numRisp = actQuestion.NumRisp;
         }
 
         public int Num_actQuestion {
@@ -52,12 +47,6 @@ namespace Move_Quiz.ViewModel
             }
         }
 
-        public int NumRisp {
-            get {
-                return numRisp;
-            }
-        }
-
         public void Ricomincia() {
             ActQuestion = domande[0];
             Num_actQuestion = 1;
@@ -77,7 +66,7 @@ namespace Move_Quiz.ViewModel
                 if (value != actQuestion) {
                     actQuestion = value;
                     RaisePropertyChanged("ActQuestion");
-                    for (int i = 1; i < actQuestion.NumRisp+1;i++ )
+                    for (int i = 1; i < 5; i++ )
                     {
                         RaisePropertyChanged("Risposta_" + i);
                     }

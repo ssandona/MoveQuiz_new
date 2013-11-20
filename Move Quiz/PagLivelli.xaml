@@ -25,7 +25,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,0">
-            <TextBlock x:Name="ApplicationTitle1" Text="MOVE QUIZ" FontFamily="Perpetua"
+            <TextBlock x:Name="ApplicationTitle1" Text="MOVE QUIZ" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch"
                        FontSize="26.667"/>
             <TextBlock Grid.Column="0" 
                        x:Name="PageTitle1" 
