@@ -148,8 +148,8 @@
   <livello id="3">
     <domanda>
       <testo>Chi è vissuto prima?</testo>
-      <risposta_a>Cristo</risposta_a>
-      <risposta_b>Giulio Cesare</risposta_b>
+      <risposta_a>Giulio Cesare</risposta_a>
+      <risposta_b>Cristo</risposta_b>
       <risposta_c>Carlo Magno</risposta_c>
       <risposta_d>San Francesco</risposta_d>
     </domanda>
@@ -505,62 +505,228 @@
       <risposta_d>1948</risposta_d>
     </domanda>
   </livello>
-    <!--
-
-Domande inseribili!!!
-      
-      
-    
-      
-      <domanda>
+  <livello id="8">
+    <domanda>
+      <testo>Qual'è il più grande divisore di 111?</testo>
+      <risposta_a>37</risposta_a>
+      <risposta_b>31</risposta_b>
+      <risposta_c>17</risposta_c>
+      <risposta_d>11</risposta_d>
+    </domanda>
+  <domanda>
+        <testo>A quale stato appartiene il Peloponneso?</testo>
+        <risposta_a>Grecia</risposta_a>
+        <risposta_b>Albania</risposta_b>
+        <risposta_c>Turchia</risposta_c>
+        <risposta_d>India</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>In quale anno divenne papa Karol Woytila?</testo>
+        <risposta_a>1978</risposta_a>
+        <risposta_b>1992</risposta_b>
+        <risposta_c>1968</risposta_c>
+        <risposta_d>1988</risposta_d>
+  </domanda>
+  <domanda>
+        <testo>Quale conquistatore si espanse più di chiunque altro?</testo>
+        <risposta_a>Gengis Khan</risposta_a>
+        <risposta_b>Giorgio V</risposta_b>
+        <risposta_c>Hitler</risposta_c>
+        <risposta_d>Carlo Magno</risposta_d>
+  </domanda>
+  <domanda>
+      <testo>Quale di questi non è un numero primo?</testo>
+      <risposta_a>91</risposta_a>
+      <risposta_b>73</risposta_b>
+      <risposta_c>101</risposta_c>
+      <risposta_d>71</risposta_d>
+    </domanda>
+  <domanda>
+        <testo>Dove fu fatto il massacro delle olimpiadi del 1972</testo>
+        <risposta_a>Monaco</risposta_a>
+        <risposta_b>Montréal</risposta_b>
+        <risposta_c>Città del Messico</risposta_c>
+        <risposta_d>Parigi</risposta_d>
+  </domanda>
+  <domanda>
+        <testo>"Amen" è una parola...</testo>
+        <risposta_a>Ebraica</risposta_a>
+        <risposta_b>Latina</risposta_b>
+        <risposta_c>Italica</risposta_c>
+        <risposta_d>Greca</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>Qual'è la più antica forma di legislazione conosciuta?</testo>
+        <risposta_a>Codice di Hamurrabi</risposta_a>
+        <risposta_b>Stele di Roseta</risposta_b>
+        <risposta_c>Papiro di Hoffmann</risposta_c>
+        <risposta_d>Rotoli di Qumran</risposta_d>
+      </domanda>
+  <domanda>
+      <testo>Quali sono le caratteristiche della corrente elettrica erogata in casa?</testo>
+      <risposta_a>230V 50Hz</risposta_a>
+      <risposta_b>220V 60Hz</risposta_b>
+      <risposta_c>200V 50Hz</risposta_c>
+      <risposta_d>210V 60Hz</risposta_d>
+    </domanda>
+  <domanda>
+        <testo>Qual'era la costruzione più alta del mondo nel 1920?</testo>
+        <risposta_a>Tour Eiffel</risposta_a>
+        <risposta_b>Chrysler Building</risposta_b>
+        <risposta_c>Petronas Tower</risposta_c>
+        <risposta_d>Empire State Building</risposta_d>
+      </domanda>
+  </livello>
+  <livello id="9">
+    <domanda>
+        <testo>In che anno è stato emesso il primo francobollo?</testo>
+        <risposta_a>1840</risposta_a>
+        <risposta_b>1899</risposta_b>
+        <risposta_c>1898</risposta_c>
+        <risposta_d>1792</risposta_d>
+      </domanda>
+   <domanda>
+        <testo>Cos'è "ai lati d'Italia"?</testo>
+        <risposta_a>Palindromo</risposta_a>
+        <risposta_b>Metonimia</risposta_b>
+        <risposta_c>Sineddoche</risposta_c>
+        <risposta_d>Tautogramma</risposta_d>
+   </domanda>
+   <domanda>
+        <testo>In quale città Napoleone fu proclamato re d'Italia?</testo>
+        <risposta_a>Parigi</risposta_a>
+        <risposta_b>Roma</risposta_b>
+        <risposta_c>Ginevra</risposta_c>
+        <risposta_d>Bologna</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>Quale di questi vini non è un nome geografico?</testo>
+        <risposta_a>Cannonau</risposta_a>
+        <risposta_b>Prosecco</risposta_b>
+        <risposta_c>Chianti</risposta_c>
+        <risposta_d>Soave</risposta_d>
+   </domanda>
+  <domanda>
+        <testo>A chi viene attribuita la nascita del Rugby?</testo>
+        <risposta_a>William Webb Ellis</risposta_a>
+        <risposta_b>John Paul Rugby</risposta_b>
+        <risposta_c>James Gilbert</risposta_c>
+        <risposta_d>Alexander Cromie</risposta_d>
+   </domanda>
+  <domanda>
+        <testo>Come si chiamava l'organo di polizia Fascista?</testo>
+        <risposta_a>OVRA</risposta_a>
+        <risposta_b>EIAR</risposta_b>
+        <risposta_c>ONMI</risposta_c>
+        <risposta_d>SISMI</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>Qual'è la funzione inversa del coseno?</testo>
+        <risposta_a>arcoseno</risposta_a>
+        <risposta_b>seno</risposta_b>
+        <risposta_c>tangente</risposta_c>
+        <risposta_d>co-coseno</risposta_d>
+      </domanda>
+  <domanda>
         <testo>Quando morì Marco Polo?</testo>
         <risposta_a>1324</risposta_a>
         <risposta_b>1492</risposta_b>
+        <risposta_c>1212</risposta_c>
+        <risposta_d>1508</risposta_d>
       </domanda>
+  <domanda>
+        <testo>Chi fu considerato il padre dell'informatica?</testo>
+        <risposta_a>A. Turing</risposta_a>
+        <risposta_b>J. Nash</risposta_b>
+        <risposta_c>C.F. Gauss</risposta_c>
+        <risposta_d>D. Hilbert</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>Quanto vale 22 in base 20?</testo>
+        <risposta_a>12</risposta_a>
+        <risposta_b>11</risposta_b>
+        <risposta_c>22</risposta_c>
+        <risposta_d>21</risposta_d>
+      </domanda>
+  </livello>
+  <livello id="10">
+    <domanda>
+      <testo>Di quante sure è composto il Corano?</testo>
+      <risposta_a>114</risposta_a>
+      <risposta_b>111</risposta_b>
+      <risposta_c>72</risposta_c>
+      <risposta_d>126</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quant'è inclinato l'asse terrestre?</testo>
+      <risposta_a>23° 27'</risposta_a>
+      <risposta_b>0° 0'</risposta_b>
+      <risposta_c>18° 15'</risposta_c>
+      <risposta_d>13° 57'</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando venne effettuata la prima telefonata della storia?</testo>
+      <risposta_a>1876</risposta_a>
+      <risposta_b>1856</risposta_b>
+      <risposta_c>1901</risposta_c>
+      <risposta_d>1812</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanti milioni di morti provocò la II Guerra Mondiale?</testo>
+      <risposta_a>Circa 40</risposta_a>
+      <risposta_b>Circa 60</risposta_b>
+      <risposta_c>Circa 20</risposta_c>
+      <risposta_d>Circa 50</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di queste è una lega formata da rame, zinco e stagno?</testo>
+      <risposta_a>Princisbecco</risposta_a>
+      <risposta_b>Ottone</risposta_b>
+      <risposta_c>Peltro</risposta_c>
+      <risposta_d>Alluminio</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi legni è il più utilizzato nella costruzione di botti?</testo>
+      <risposta_a>Quercia</risposta_a>
+      <risposta_b>Frassino</risposta_b>
+      <risposta_c>Abete</risposta_c>
+      <risposta_d>Mogano</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi non è un sestiere di Venezia?</testo>
+      <risposta_a>San Zaccaria</risposta_a>
+      <risposta_b>Castello</risposta_b>
+      <risposta_c>Cannaregio</risposta_c>
+      <risposta_d>Giudecca</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando venne fondata la FIAT?</testo>
+      <risposta_a>1899</risposta_a>
+      <risposta_b>1921</risposta_b>
+      <risposta_c>1912</risposta_c>
+      <risposta_d>1872</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual'era l'epiteto d'Achille?</testo>
+      <risposta_a>Piè veloce</risposta_a>
+      <risposta_b>il tallone</risposta_b>
+      <risposta_c>Elmo d'oro</risposta_c>
+      <risposta_d>Patroclo</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual'è il nome della lettera "σ"?</testo>
+      <risposta_a>sigma</risposta_a>
+      <risposta_b>omega</risposta_b>
+      <risposta_c>chi</risposta_c>
+      <risposta_d>theta</risposta_d>
+    </domanda>
+  </livello>
+    <!--Domande inseribili!!!
       <domanda>
         <testo>Quando venne fondata la RAI?</testo>
         <risposta_a>1905</risposta_a>
         <risposta_b>1954</risposta_b>
       </domanda>
-      <domanda>
-        <testo>L’esercito italiano entrò a Roma, nel 1870, attraverso la breccia di...</testo>
-        <risposta_a>Porta Pia</risposta_a>
-        <risposta_b>Porta Garibaldi</risposta_b>
-      </domanda>
-      <domanda>
-        <testo>Cosa comparve circa 150.000 anni in Europa?</testo>
-        <risposta_a>L'uomo di Neanderthal</risposta_a>
-        <risposta_b>Le prime forme di vita</risposta_b>
-      </domanda>
-      
-    
-   
-      <domanda>
-        <testo>Come si chiamava l'organo di polizia Fascista?</testo>
-        <risposta_a>Ovra</risposta_a>
-        <risposta_b>Eiar</risposta_b>
-      </domanda>
-      <domanda>
-        <testo>Quando venne fondata la FIAT?</testo>
-        <risposta_a>1899</risposta_a>
-        <risposta_b>1921</risposta_b>
-      </domanda>
-   
-      
-      
-      <domanda>
-        <testo>A quale stato appartiene il Peloponneso?</testo>
-        <risposta_a>Grecia</risposta_a>
-        <risposta_b>Albania</risposta_b>
-      </domanda>
-    
-      <domanda>
-        <testo>"Amen" è una parola...</testo>
-        <risposta_a>Ebraica</risposta_a>
-        <risposta_b>Latina</risposta_b>
-      </domanda>
-      
-      
       <domanda>
         <testo>Quando fu la terribile strage terroristica alla stazione di bologna?</testo>
         <risposta_a>1980</risposta_a>
@@ -572,48 +738,15 @@ Domande inseribili!!!
         <risposta_b>1855</risposta_b>
       </domanda>
       <domanda>
-        <testo>In quale anno divenne papa Karol Woytila?</testo>
-        <risposta_a>1978</risposta_a>
-        <risposta_b>1992</risposta_b>
-      </domanda>
-     
-      
-      <domanda>
         <testo>In quale anno si verifico' la strage di Capaci?</testo>
         <risposta_a>1992</risposta_a>
         <risposta_b>1972</risposta_b>
       </domanda>
-      
-      
-      
       <domanda>
         <testo>Quando ci fu una tremenda alluvione in Italia?</testo>
         <risposta_a>1966</risposta_a>
         <risposta_b>1979</risposta_b>
       </domanda>
-    
-      <domanda>
-        <testo>In che anno è stato emesso il primo francobollo?</testo>
-        <risposta_a>1840</risposta_a>
-        <risposta_b>1899</risposta_b>
-      </domanda>
-      
-      <domanda>
-        <testo>In quale città Napoleone fu proclamato re d'Italia?</testo>
-        <risposta_a>Parigi</risposta_a>
-        <risposta_b>Roma</risposta_b>
-      </domanda>
-      <domanda>
-        <testo>Da che cosa fu sancita l'annessione di Roma all'Italia?</testo>
-        <risposta_a>Plebiscito</risposta_a>
-        <risposta_b>Battaglia</risposta_b>
-      </domanda>
-      <domanda>
-        <testo>Quando venne proclamata la prima Repubblica Sovietica Cinese da Mao?</testo>
-        <risposta_a>1931</risposta_a>
-        <risposta_b>1944</risposta_b>
-      </domanda>
-      
       <domanda>
         <testo>Quanti milioni di morti provocò la II Guerra Mondiale?</testo>
         <risposta_a>Circa 40</risposta_a>
@@ -623,21 +756,6 @@ Domande inseribili!!!
         <testo>Quando fu inventata la penicillina da Fleming?</testo>
         <risposta_a>1929</risposta_a>
         <risposta_b>1876</risposta_b>
-      </domanda>
-      
-      
-    
-      <domanda>
-        <testo>Quale conquistatore si espanse più di chiunque altro?</testo>
-        <risposta_a>Gengis Khan</risposta_a>
-        <risposta_b>Giorgio V</risposta_b>
-      </domanda>
-      
-     
-      <domanda>
-        <testo>Dove fu fatto il massacro delle olimpiadi del 1972</testo>
-        <risposta_a>Monaco</risposta_a>
-        <risposta_b>Montréal</risposta_b>
       </domanda>
       <domanda>
         <testo>Chi finanziò Cristoforo Colombo nel suo viaggio?</testo>
@@ -650,25 +768,8 @@ Domande inseribili!!!
         <risposta_b>1867</risposta_b>
       </domanda>
       <domanda>
-        <testo>Quando venne effettuata la prima telefonata della storia?</testo>
-        <risposta_a>1876</risposta_a>
-        <risposta_b>1856</risposta_b>
-      </domanda>
-      <domanda>
-        <testo>Qual'era la costruzione più alta del mondo nel 1920?</testo>
-        <risposta_a>Tour Eiffel</risposta_a>
-        <risposta_b>Chrysler Building</risposta_b>
-      </domanda>
-      <domanda>
         <testo>Quando nacque Darwin?</testo>
         <risposta_a>1809</risposta_a>
         <risposta_b>1859</risposta_b>
-      </domanda>
-      <domanda>
-        <testo>Qual'è la più antica forma di legislazione conosciuta?</testo>
-        <risposta_a>Codice di Hamurrabi</risposta_a>
-        <risposta_b>Stele di Roseta</risposta_b>
-      </domanda>
-    
-    -->
+      </domanda>-->
 </livelli>
