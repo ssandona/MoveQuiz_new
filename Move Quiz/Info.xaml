@@ -24,12 +24,26 @@
         </Grid.RowDefinitions>
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,0">
             <TextBlock x:Name="ApplicationTitle1" Text="MOVE QUIZ" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch"
-                       FontSize="26.667"/>
+                       FontSize="26.667">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF0088DD"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
             <TextBlock Grid.Column="0" 
                        x:Name="PageTitle1" 
                        Text="informazioni" 
                        FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch"
-                       FontSize="80" Margin="0,0,10,0" Grid.ColumnSpan="2"/>
+                       FontSize="80" Margin="0,0,10,0" Grid.ColumnSpan="2">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF0088DD"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
         </StackPanel>
         <StackPanel Margin="0 10 0 0" Grid.Row="1">
             <Image Margin="0 60 0 0" Source="/Images/no1.png" Height="255" RenderTransformOrigin="0.5,0.5"/>

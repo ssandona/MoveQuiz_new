@@ -149,7 +149,7 @@ namespace Move_Quiz
 
 
 
-
+        #region definizione metodi nord sud est ovest riposo
 
 
         public void Nord() {
@@ -207,7 +207,7 @@ namespace Move_Quiz
                 }
                 else { ((QuestionsVM)this.DataContext).Ricomincia(); }
         }
-
+        #endregion
 
 
         private void ricomincia(object sender, RoutedEventArgs e)
@@ -255,32 +255,32 @@ namespace Move_Quiz
 
                 accelX = -timerX ;
                 accelY = timerY;
-
-                if ((timerY < -0.45)&&(!sud))
+                #region invocazione metodi nord sud est ovest riposo
+                if ((timerY < -0.45) && (!nord) && (!est) && (!ovest) && (!sud))
                 {
                     sud = true;
                     est = false; nord = false; ovest = false; riposo = false; risposta = true;
                     Sud();
                 }
-                else if ((timerY > 0.45)&&(!nord))
+                else if ((timerY > 0.45) && (!nord) && (!est) && (!ovest) && (!sud))
                 {
                     nord = true;
                     sud = false; ovest = false; est = false; riposo = false; risposta = true;
                     Nord();
                 }
-                else if ((timerX < -0.52)&&(!ovest))
+                else if ((timerX < -0.52) && (timerY < 0.38) && (timerY > -0.38) && (!nord) && (!est) && (!ovest) && (!sud))
                 {
                     ovest = true;
                     sud = false; nord = false; est = false; riposo = false; risposta = true;
                     Ovest();
                 }
-                else if ((timerX > 0.52) && (!est))
+                else if ((timerX > 0.52) && (timerY < 0.38) && (timerY > -0.38) && (!nord) && (!est) && (!ovest) && (!sud))
                 {
                     est = true;
                     sud = false; ovest = false; nord = false; riposo = false; risposta = true;
                     Est();
                 }
-                else if((!riposo)&&(timerX>=-0.48)&&(timerX<=0.48)&&(timerY<=0.38)&&(timerY>=-0.38))
+                else if((!riposo)&&(timerX>=-0.45)&&(timerX<=0.45)&&(timerY<=0.38)&&(timerY>=-0.38))
                 {
                     riposo = true;
                     sud = false; ovest = false; nord = false; est = false;
@@ -291,6 +291,7 @@ namespace Move_Quiz
                         risposta = false;
                     }
                 }
+                #endregion
         }
 
         //Al click del back button chiedo se si è sicuri di uscire. Se si torno alla pagina dei livelli a cui applico un refresh

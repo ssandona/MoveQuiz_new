@@ -37,7 +37,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Margin="14,136,10,-10" Grid.RowSpan="2">
-            <Button Content="Gioca ora!" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Gioca_Click" Width="446" Height="200" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#E1000000">
+            <Button Content="Gioca ora!" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Gioca_Click" Width="446" Height="200" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#B2000000">
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                         <GradientStop Color="White"/>
@@ -45,7 +45,7 @@
                     </LinearGradientBrush>
                 </Button.Foreground>
             </Button>
-            <Button Content="Informazioni" HorizontalAlignment="Left" Margin="0,205,0,0" VerticalAlignment="Top" Click="Info_Click" Width="446" Height="200" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#E1000000">
+            <Button Content="Informazioni" HorizontalAlignment="Left" Margin="0,205,0,0" VerticalAlignment="Top" Click="Info_Click" Width="446" Height="200" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#B2000000">
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                         <GradientStop Color="White"/>
@@ -53,7 +53,7 @@
                     </LinearGradientBrush>
                 </Button.Foreground>
             </Button>
-            <Button Content="Altro" HorizontalAlignment="Left" Margin="0,405,0,0" VerticalAlignment="Top" Click="Altro_Click" Width="446" Height="200" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#E1000000">
+            <Button Content="Altro" HorizontalAlignment="Left" Margin="0,405,0,0" VerticalAlignment="Top" Click="Altro_Click" Width="446" Height="200" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#66000000">
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                         <GradientStop Color="White"/>

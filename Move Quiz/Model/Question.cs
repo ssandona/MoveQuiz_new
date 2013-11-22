@@ -29,34 +29,72 @@ namespace Move_Quiz
             lista.Add(new TetraLista(0, 1, 3, 2).lista);
             lista.Add(new TetraLista(0, 2, 3, 1).lista);
             lista.Add(new TetraLista(3, 2, 1, 0).lista);
-            lista.Add(new TetraLista(3, 0, 2, 1).lista);
-            lista.Add(new TetraLista(1, 3, 0, 2).lista);
-            lista.Add(new TetraLista(1, 0, 2, 3).lista);
-            lista.Add(new TetraLista(2, 0, 1, 3).lista);
-            lista.Add(new TetraLista(3, 2, 1, 0).lista);
-            lista.Add(new TetraLista(1, 0, 3, 2).lista);
-            lista.Add(new TetraLista(1, 0, 3, 2).lista);
+            lista.Add(new TetraLista(0, 2, 3, 1).lista);
             lista.Add(new TetraLista(3, 2, 0, 1).lista);
             lista.Add(new TetraLista(3, 2, 1, 0).lista);
-            lista.Add(new TetraLista(3, 0, 2, 1).lista);
-            lista.Add(new TetraLista(2, 0, 3, 1).lista);
+            lista.Add(new TetraLista(0, 2, 3, 1).lista);
             lista.Add(new TetraLista(3, 2, 0, 1).lista);
-            lista.Add(new TetraLista(3, 2, 1, 0).lista);
-            lista.Add(new TetraLista(3, 0, 2, 1).lista);
             lista.Add(new TetraLista(2, 0, 3, 1).lista);
             lista.Add(new TetraLista(1, 3, 2, 0).lista);
             lista.Add(new TetraLista(2, 1, 0, 3).lista);
             lista.Add(new TetraLista(3, 2, 0, 1).lista);
             lista.Add(new TetraLista(0, 1, 3, 2).lista);
             lista.Add(new TetraLista(3, 2, 1, 0).lista);
-            lista.Add(new TetraLista(0, 2, 3, 1).lista);
             lista.Add(new TetraLista(3, 0, 2, 1).lista);
+            lista.Add(new TetraLista(0, 1, 3, 2).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
+            lista.Add(new TetraLista(3, 0, 2, 1).lista); 
+            lista.Add(new TetraLista(3, 0, 2, 1).lista);
+            lista.Add(new TetraLista(1, 3, 0, 2).lista);
+            lista.Add(new TetraLista(1, 0, 2, 3).lista);
+            lista.Add(new TetraLista(2, 1, 0, 3).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
+            lista.Add(new TetraLista(1, 0, 3, 2).lista);
+            lista.Add(new TetraLista(0, 1, 3, 2).lista);
+            lista.Add(new TetraLista(3, 2, 0, 1).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
+            lista.Add(new TetraLista(3, 0, 2, 1).lista);
+            lista.Add(new TetraLista(2, 0, 3, 1).lista);
+            lista.Add(new TetraLista(0, 2, 3, 1).lista);
+            lista.Add(new TetraLista(3, 2, 0, 1).lista);
+            lista.Add(new TetraLista(2, 0, 3, 1).lista);
+            lista.Add(new TetraLista(3, 0, 2, 1).lista); 
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
+            lista.Add(new TetraLista(0, 2, 3, 1).lista);
+            lista.Add(new TetraLista(3, 2, 0, 1).lista);
+            lista.Add(new TetraLista(1, 0, 3, 2).lista); 
+            lista.Add(new TetraLista(0, 1, 3, 2).lista);
+            lista.Add(new TetraLista(0, 2, 3, 1).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
+            lista.Add(new TetraLista(3, 0, 2, 1).lista);
+            lista.Add(new TetraLista(1, 3, 0, 2).lista);
+            lista.Add(new TetraLista(1, 0, 2, 3).lista);
+            lista.Add(new TetraLista(2, 1, 0, 3).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
             lista.Add(new TetraLista(2, 0, 3, 1).lista);
             lista.Add(new TetraLista(0, 1, 3, 2).lista);
             lista.Add(new TetraLista(1, 0, 3, 2).lista);
+            lista.Add(new TetraLista(2, 0, 3, 1).lista);
+            lista.Add(new TetraLista(1, 3, 2, 0).lista);
+            lista.Add(new TetraLista(2, 1, 0, 3).lista);
+            lista.Add(new TetraLista(3, 2, 0, 1).lista);
+            lista.Add(new TetraLista(0, 1, 3, 2).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
+            lista.Add(new TetraLista(3, 0, 2, 1).lista);
+            lista.Add(new TetraLista(0, 1, 3, 2).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
+            lista.Add(new TetraLista(3, 0, 2, 1).lista);
+            lista.Add(new TetraLista(2, 0, 3, 1).lista);
+            lista.Add(new TetraLista(0, 1, 3, 2).lista);
             lista.Add(new TetraLista(3, 2, 0, 1).lista);
             lista.Add(new TetraLista(3, 2, 1, 0).lista);
-
+            lista.Add(new TetraLista(1, 0, 3, 2).lista);
+            lista.Add(new TetraLista(1, 0, 3, 2).lista);
+            lista.Add(new TetraLista(0, 1, 3, 2).lista);
+            lista.Add(new TetraLista(3, 2, 0, 1).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
+            lista.Add(new TetraLista(3, 2, 0, 1).lista);
+            lista.Add(new TetraLista(3, 2, 1, 0).lista);
             /* //DEBUG
             int i = 0;
             while(i<lista.Count){
@@ -67,7 +105,7 @@ namespace Move_Quiz
             #endregion
 
             //z è un numero sorteggiato tra le permutazioni possibili (lista) in modo che abbia di sicuro altri 9 successori
-            int z = rando.Next(0, (lista.Count-11));
+            int z = rando.Next(0, (lista.Count-17));
 
             // j indica il numero della domanda caricata e va da 0 a 9
             //ora inserisco in lista le 4 domande secondo la permutazione 2013, 3021, 0312, ...

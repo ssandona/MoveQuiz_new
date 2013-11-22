@@ -21,7 +21,6 @@ namespace Move_Quiz.ViewModel
             /// oer ogni id nella lista caricata, crea un livello nuovo ed assegnalo al campo 
             for(int i =1;i<livelli+1;i++)
             {
-                //MessageBox.Show("ciao");
                 listaLiv.Add(new Livello(i));
             }
         }

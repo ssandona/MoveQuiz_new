@@ -14,7 +14,7 @@ namespace Move_Quiz
         QuestionLoader singleton;
         string best_score;
 
-        /// VAR: Isolated storage per caricare/salvare
+        // VAR: Isolated storage per caricare/salvare
         private IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings;
 
 
@@ -37,8 +37,8 @@ namespace Move_Quiz
             }
         }
 
-        /// GETTER: ritorna best_score
-        /// SETTER: setta il nuovo best score del livello
+        // GETTER: ritorna best_score
+        // SETTER: setta il nuovo best score del livello
         public string Best_Score
         {
             get
@@ -47,7 +47,7 @@ namespace Move_Quiz
             }
             set
             {
-                /// se esiste già un best score imposta il piu grande tra l attuale e il vecchio
+                // se esiste già un best score imposta il piu grande tra l'attuale e il vecchio
                 if (!best_score.Equals("-"))
                 {
                     int val = Convert.ToInt32(value);
@@ -58,7 +58,7 @@ namespace Move_Quiz
                         RaisePropertyChanged("Best_Score");
                     }
                 }
-                /// altrimenti se si gioca per la prima volta viene assegnato il valore corrente 
+                // altrimenti se si gioca per la prima volta viene assegnato il valore corrente 
                 else
                 {
                     best_score = value;
@@ -68,7 +68,7 @@ namespace Move_Quiz
 
         }
 
-        /// GETTER: ritorna id
+        // GETTER: ritorna id
         public int Id
         {
             get
