@@ -22,7 +22,7 @@ namespace Move_Quiz
         }
         private void Altro_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Altro.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/BestScores.xaml", UriKind.Relative));
         }
 
         //Premendo il Back button chiedo se si è sicuri di uscire. Se si non torno alla pagina di prima ma esco dall'applicazione (cancello la storia delle pagine navigate)
@@ -33,6 +33,11 @@ namespace Move_Quiz
                 NavigationService.RemoveBackEntry();
             }
 
+        }
+
+        private void Tutorial_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Tutorial.xaml", UriKind.Relative));
         }
     }
 }

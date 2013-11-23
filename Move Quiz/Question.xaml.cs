@@ -15,6 +15,7 @@ using System.Net;
 using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.IO.IsolatedStorage;
 
 
 
@@ -27,6 +28,8 @@ namespace Move_Quiz
         int punti = 50;
         int idLivello;
         bool correct;
+        // VAR: Isolated storage per caricare/salvare
+        private IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings;
 
         DispatcherTimer timer;
         protected double CursorCenter;
@@ -52,7 +55,7 @@ namespace Move_Quiz
         {
             InitializeComponent();
             risposta = false;
-            punti = 0;
+            punti = 50;
             dt.Interval = new TimeSpan(0,0,0,1,0); // 1 sec
             dt.Tick += new EventHandler(dt_Tick);
             //avviaAccellerometro();
@@ -95,11 +98,17 @@ namespace Move_Quiz
         {
             //stopTimer();
             correct = ((QuestionsVM)this.DataContext).Verify(risp);
-           
+
             if (correct)
+            {
                 answer_correct.Play(); //suono risposta corretta
-            else 
+                punti += 3;
+            }
+            else
+            {
                 answer_wrong.Play(); //suono risposta errata
+                punti -= 5;
+            }
             
             risposta = true;
             
@@ -125,26 +134,24 @@ namespace Move_Quiz
             switch (tempo_rimanente)
             {
                 // cambio il colore degli ultimi secondi del cronometro
-                case 5: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 0, 0)); break; }
-                case 4: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(100, 255, 0, 0)); break; }
-                case 3: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(120, 255, 0, 0)); break; }
-                case 2: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(140, 255, 0, 0)); break; }
-                case 1: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(160, 255, 0, 0)); break; }
-                case 0: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(180, 255, 0, 0)); break; }
+                case 6: { last_beep.Volume = 0; last_beep.Play(); break; }
+                case 5: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 0, 0)); time_beep.Volume=0; time_beep.Play(); break; }
+                case 4: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(100, 255, 0, 0)); time_beep.Volume = 0.2; time_beep.Play(); break; }
+                case 3: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(120, 255, 0, 0)); time_beep.Volume = 0.4; time_beep.Play(); break; }
+                case 2: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(140, 255, 0, 0)); time_beep.Volume = 0.6; time_beep.Play(); break; }
+                case 1: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(160, 255, 0, 0)); time_beep.Volume = 0.8; time_beep.Play(); break; }
+                case 0: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(180, 255, 0, 0));
+                last_beep.Volume = 0.7;
+                    last_beep.Play();
+                    dt.Stop();
+                    timer.Stop();
+                    sconfittaPopUp.IsOpen = true;
+
+                    break; }
+
                 default: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 255, 255)); break; }
             }
-
             Counter.Text = tempo_rimanente.ToString();
-
-            if (tempo_rimanente == 0)
-            {
-                dt.Stop();
-                timer.Stop();
-                sconfittaPopUp.IsOpen = true;
-
-                // Vai alla schermata dei punteggi
-                // Hai finito la partita
-            }
         }
 
 
@@ -200,6 +207,25 @@ namespace Move_Quiz
                     if (!exist_next)
                     {
                         win_sound.Play();
+
+                        int best=0;
+                        if (appSettings.Contains("bestscore" + idLivello))
+                        {
+                            //recupero bestscore
+                            
+                            best = Int32.Parse((appSettings["bestscore" + idLivello]).ToString());
+                            if (punti > best)
+                            {
+                                //aggiorno bestscore
+                                appSettings["bestscore" + idLivello] = punti;
+                                best = punti;
+                            }
+                        }
+
+                        //Aggiorno campi popup
+                        bestscore.Text = best.ToString();
+                        punteggio.Text = punti.ToString();
+                        //Apro il popup
                         vittoria.IsOpen = true;
                         timer.Stop();
                         stopTimer();
@@ -213,13 +239,13 @@ namespace Move_Quiz
         private void ricomincia(object sender, RoutedEventArgs e)
         {
             sconfittaPopUp.IsOpen = false;
+            
             //suono inizio
             punti = 50;
             timer.Start();
             avviaTimer(50);
-            
-            
-            
+            //Ricomincia dalla prima domanda!!!
+            ((QuestionsVM)this.DataContext).Ricomincia();
         }
 
         private void esci(object sender, RoutedEventArgs e)
@@ -303,7 +329,8 @@ namespace Move_Quiz
             string uri = "/PagLivelli.xaml?Refresh=true";
 
             NavigationService.Navigate(new Uri(uri, UriKind.Relative));}
-
+            //sennò dà il pettino che a caso segna tempo scaduto anche se si è nel menu
+            stopTimer();
         }
 
         #region Modifica posizione del cursore

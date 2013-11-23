@@ -64,11 +64,11 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Altro.xaml.cs">
-      <DependentUpon>Altro.xaml</DependentUpon>
-    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BestScores.xaml.cs">
+      <DependentUpon>BestScores.xaml</DependentUpon>
     </Compile>
     <Compile Include="Info.xaml.cs">
       <DependentUpon>Info.xaml</DependentUpon>
@@ -89,6 +89,9 @@
       <DependentUpon>Question.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\QuestionLoader.cs" />
+    <Compile Include="Tutorial.xaml.cs">
+      <DependentUpon>Tutorial.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\LivelliVM.cs" />
     <Compile Include="ViewModel\QuestionsVM.cs" />
   </ItemGroup>
@@ -97,7 +100,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="Altro.xaml">
+    <Page Include="BestScores.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -114,6 +117,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Question.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tutorial.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -143,10 +150,13 @@
     <Content Include="Images\no1.png" />
     <Content Include="Images\sfondo.png" />
     <Content Include="Images\tile.png" />
+    <Content Include="Images\tutorial.png" />
     <Content Include="Images\unlocked.png" />
+    <Content Include="Sounds\beep.mp3" />
     <Content Include="Sounds\correct1.mp3" />
     <Content Include="Sounds\correct2.mp3" />
     <Content Include="Sounds\correct3.mp3" />
+    <Content Include="Sounds\lastbeep.mp3" />
     <Content Include="Sounds\win.mp3" />
     <Content Include="Sounds\wrong1.mp3" />
     <Content Include="Sounds\wrong2.mp3" />
@@ -176,6 +186,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="back4.jpg" />
+    <BlendEmbeddedFont Include="Fonts\QuartzMS.TTF">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+      <Uppercase>True</Uppercase>
+      <Lowercase>True</Lowercase>
+      <Numbers>True</Numbers>
+      <Punctuation>True</Punctuation>
+    </BlendEmbeddedFont>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
