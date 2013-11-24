@@ -45,7 +45,7 @@ namespace Move_Quiz
         /// </summary>
         public void CancellaProgressi()
         {
-            for (int id = 0; id < numLivelli; id++)
+            for (int id = 0; id <= numLivelli; id++)
                 if (appSettings.Contains("bestscore" + id))
                 { appSettings["bestscore" + id] = "-"; }
             CaricaBestScores();

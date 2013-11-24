@@ -261,7 +261,7 @@ namespace Move_Quiz
         {
             int next = idLivello + 1;
             string uri;
-            if (next <= 10)
+            if (next <= 16)
                 uri = "/Question.xaml?Refresh=true&id=" + next;
             else uri = "/MainPage.xaml";
 
