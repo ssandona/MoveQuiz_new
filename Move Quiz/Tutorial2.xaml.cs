@@ -10,16 +10,16 @@ using Microsoft.Phone.Shell;
 
 namespace Move_Quiz
 {
-    public partial class Tutorial : PhoneApplicationPage
+    public partial class Tutorial2 : PhoneApplicationPage
     {
-        public Tutorial()
+        public Tutorial2()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Tutorial2.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Tutorial.xaml", UriKind.Relative));
         }
 
         protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)

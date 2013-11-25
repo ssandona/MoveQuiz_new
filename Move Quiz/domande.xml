@@ -17,7 +17,7 @@
       <risposta_d>Vienna</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è un multiplo di 3?</testo>
+      <testo>Qual è un multiplo di 3?</testo>
       <risposta_a>102</risposta_a>
       <risposta_b>101</risposta_b>
       <risposta_c>100</risposta_c>
@@ -45,7 +45,7 @@
       <risposta_d>Testa</risposta_d>
     </domanda>
       <domanda>
-        <testo>Chi fu il dittatore Italiano in carica durante il periodo fascista?</testo>
+        <testo>Chi fu il dittatore Italiano durante il periodo fascista?</testo>
         <risposta_a>Mussolini</risposta_a>
         <risposta_b>Hitler</risposta_b>
         <risposta_c>Badoglio</risposta_c>
@@ -75,7 +75,7 @@
   </livello>
   <livello id="2">
     <domanda>
-      <testo>Come si chiamano le uova pregiate che ci vengono fornite dallo storione?</testo>
+      <testo>Come si chiamano le uova pregiate dello storione?</testo>
       <risposta_a>Caviale</risposta_a>
       <risposta_b>Escargot</risposta_b>
       <risposta_c>Mitili</risposta_c>
@@ -103,7 +103,7 @@
       <risposta_d>Pakistan</risposta_d>
     </domanda>
     <domanda>
-      <testo>Chi fu il primo presidente degli USA di colore?</testo>
+      <testo>Chi fu il primo presidente degli U.S.A. di colore?</testo>
       <risposta_a>Barack Obama</risposta_a>
       <risposta_b>Martin Luther King</risposta_b>
       <risposta_c>Thomas Jefferson</risposta_c>
@@ -124,7 +124,7 @@
       <risposta_d>2001</risposta_d>
     </domanda>
     <domanda>
-      <testo>Chi fu il primo presidente degli USA?</testo>
+      <testo>Chi fu il primo presidente degli U.S.A.?</testo>
       <risposta_a>George Washington</risposta_a>
       <risposta_b>John Adams</risposta_b>
       <risposta_c>Theodore Roosevelt</risposta_c>
@@ -154,14 +154,14 @@
       <risposta_d>San Francesco</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è la vetta più alta d'Italia?</testo>
+      <testo>Qual è la vetta più alta d'Italia?</testo>
       <risposta_a>Monte Bianco</risposta_a>
       <risposta_b>Marmolada</risposta_b>
       <risposta_c>Monte Civetta</risposta_c>
       <risposta_d>Monte Etna</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è la lettera più usata nell'alfabeto italiano?</testo>
+      <testo>Qual è la lettera più usata nell'alfabeto italiano?</testo>
       <risposta_a>I</risposta_a>
       <risposta_b>R</risposta_b>
       <risposta_c>F</risposta_c>
@@ -175,7 +175,7 @@
       <risposta_d>7 milioni</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è una potenza di 2?</testo>
+      <testo>Qual è una potenza di 2?</testo>
       <risposta_a>64</risposta_a>
       <risposta_b>62</risposta_b>
       <risposta_c>72</risposta_c>
@@ -219,7 +219,7 @@
   </livello>
   <livello id="4">
     <domanda>
-      <testo>Di che colore era inizialmente le Coca-Cola?</testo>
+      <testo>Di che colore era inizialmente la Coca-Cola?</testo>
       <risposta_a>Verde</risposta_a>
       <risposta_b>Rossa</risposta_b>
       <risposta_c>Arancione</risposta_c>
@@ -233,7 +233,7 @@
       <risposta_d>A. Meucci</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è il quadrato di 13?</testo>
+      <testo>Qual è il quadrato di 13?</testo>
       <risposta_a>169</risposta_a>
       <risposta_b>133</risposta_b>
       <risposta_c>363</risposta_c>
@@ -247,7 +247,7 @@
         <risposta_d>Norvegia</risposta_d>
       </domanda>
     <domanda>
-      <testo>Qual'è l'isola più grande della Terra?</testo>
+      <testo>Qual è l'isola più grande della Terra?</testo>
       <risposta_a>Groenlandia</risposta_a>
       <risposta_b>Inghilterra</risposta_b>
       <risposta_c>Irlanda</risposta_c>
@@ -291,7 +291,7 @@
   </livello>
   <livello id="5">
     <domanda>
-      <testo>Qual'è la malattia più diffusa al mondo?</testo>
+      <testo>Qual è la malattia più diffusa al mondo?</testo>
       <risposta_a>Raffreddore</risposta_a>
       <risposta_b>Tubercolosi</risposta_b>
       <risposta_c>AIDS</risposta_c>
@@ -326,7 +326,7 @@
       <risposta_d>1984</risposta_d>
     </domanda>
     <domanda>
-      <testo>In quale localita' della Sicilia sbarcarono i mille?</testo>
+      <testo>In quale località della Sicilia sbarcarono i mille?</testo>
       <risposta_a>Marsala</risposta_a>
       <risposta_b>Porto Empedocle</risposta_b>
       <risposta_c>Trapani</risposta_c>
@@ -507,7 +507,7 @@
   </livello>
   <livello id="8">
     <domanda>
-      <testo>Qual'è il più grande divisore di 111?</testo>
+      <testo>Qual è il più grande divisore di 111?</testo>
       <risposta_a>37</risposta_a>
       <risposta_b>31</risposta_b>
       <risposta_c>17</risposta_c>
@@ -556,7 +556,7 @@
         <risposta_d>Greca</risposta_d>
       </domanda>
     <domanda>
-        <testo>Qual'è la più antica forma di legislazione conosciuta?</testo>
+        <testo>Qual è la più antica forma di legislazione conosciuta?</testo>
         <risposta_a>Codice di Hamurrabi</risposta_a>
         <risposta_b>Stele di Roseta</risposta_b>
         <risposta_c>Papiro di Hoffmann</risposta_c>
@@ -621,7 +621,7 @@
         <risposta_d>SISMI</risposta_d>
       </domanda>
   <domanda>
-        <testo>Qual'è la funzione inversa del seno?</testo>
+        <testo>Qual è la funzione inversa del seno?</testo>
         <risposta_a>Arcoseno</risposta_a>
         <risposta_b>Coseno</risposta_b>
         <risposta_c>Tangente</risposta_c>
@@ -786,7 +786,7 @@
       <risposta_d>Strumento</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è il minimo comune multiplo tra 12 e 15?</testo>
+      <testo>Qual è il minimo comune multiplo tra 12 e 15?</testo>
       <risposta_a>60</risposta_a>
       <risposta_b>90</risposta_b>
       <risposta_c>75</risposta_c>
@@ -858,7 +858,7 @@
       <risposta_d>Beretta</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è il quadrato di i?</testo>
+      <testo>Qual è il quadrato di i?</testo>
       <risposta_a>-1</risposta_a>
       <risposta_b>1</risposta_b>
       <risposta_c>0</risposta_c>
@@ -930,7 +930,7 @@
       <risposta_d>Patroclo</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è il nome della lettera "σ"?</testo>
+      <testo>Qual è il nome della lettera "σ"?</testo>
       <risposta_a>Sigma</risposta_a>
       <risposta_b>Omega</risposta_b>
       <risposta_c>Chi</risposta_c>
@@ -1002,7 +1002,7 @@
       <risposta_d>Leda</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è la capitale dell'Oregon?</testo>
+      <testo>Qual è la capitale dell'Oregon?</testo>
       <risposta_a>Salem</risposta_a>
       <risposta_b>Portland</risposta_b>
       <risposta_c>Helena</risposta_c>
@@ -1018,7 +1018,7 @@
       <risposta_d>3</risposta_d>
     </domanda>
     <domanda>
-      <testo>Qual'è la quinta giusta del Si?</testo>
+      <testo>Qual è la quinta giusta del Si?</testo>
       <risposta_a>Fa#</risposta_a>
       <risposta_b>Mi</risposta_b>
       <risposta_c>Sol</risposta_c>
@@ -1039,11 +1039,11 @@
       <risposta_d>Arizona</risposta_d>
     </domanda>
     <domanda>
-      <testo>Come veniva soprannominato Giorgio Napolitano?</testo>
-      <risposta_a>Re Umberto</risposta_a>
-      <risposta_b>Re Carlo</risposta_b>
-      <risposta_c>Il Cavaliere</risposta_c>
-      <risposta_d>Re Giorgio</risposta_d>
+      <testo>Quand'è nato Giorgio Napolitano?</testo>
+      <risposta_a>1925</risposta_a>
+      <risposta_b>1936</risposta_b>
+      <risposta_c>1919</risposta_c>
+      <risposta_d>1923</risposta_d>
     </domanda>
   <domanda>
       <testo>Chi diresse Matrix?</testo>
@@ -1132,7 +1132,7 @@
       <risposta_d>Idempotenza</risposta_d>
     </domanda>
 <domanda>
-      <testo>Qual'è lo stato del Neodimio a circa 28°C?</testo>
+      <testo>Qual è lo stato del Neodimio a circa 28°C?</testo>
       <risposta_a>Solido</risposta_a>
       <risposta_b>Liquido</risposta_b>
       <risposta_c>Plasma</risposta_c>

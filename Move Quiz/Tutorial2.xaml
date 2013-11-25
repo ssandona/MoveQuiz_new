@@ -1,5 +1,5 @@
 ﻿<phone:PhoneApplicationPage
-    x:Class="Move_Quiz.Tutorial"
+    x:Class="Move_Quiz.Tutorial2"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -46,39 +46,25 @@
         </StackPanel>
         <StackPanel Grid.Row="1">
 
-            <Grid Width="440" Height="305">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="50" />
-                    <RowDefinition Height="75"/>
-                    <RowDefinition Height="50" />
-                    <RowDefinition Height="140"/>
-                </Grid.RowDefinitions>
-                <TextBlock Text="Scopo del gioco" Grid.Row="0"  FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" TextAlignment="Center" />
-                <TextBlock Grid.Row="1" FontSize="20" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left">
-                        	<Run Text="Il  gioco  consiste  in  16  livelli  di  10  domande"/>
+            
+            <TextBlock FontSize="20" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left" Height="381" Margin="10,0">
+                        	<Run Text="Per rispondere a una domanda è necessario che"/>
                         	<LineBreak/>
-                        	<Run Text="ciascuno. Lo scopo del gioco è vincere tutti i livelli" />
-                            <LineBreak/>
-                        	<Run Text="con il punteggio migliore in meno di 50 secondi." />
-                </TextBlock>
-                <TextBlock Text="Come giocare?" Grid.Row="2"  FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" TextAlignment="Center" />
-
-
-                <TextBlock Grid.Row="3" FontSize="20" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left">
-                        	<Run Text="Nella schermata principale di gioco, al centro è"/>
+                        	<Run Text="s'inclini  il  telefono   nella   direzione  del  colore"/>
                         	<LineBreak/>
-                        	<Run Text="presente una domanda di cultura generale, con 4"/>
+                        	<Run Text="relativo alla risposta  desiderata.   Si  vedrà  che  il"/>
                         	<LineBreak/>
-                        	<Run Text="risposte possibili di 4 colori diversi. Dietro a tale"/>
+                        	<Run Text="cursore si sposterà in tale direzione fino ad udire"/>
                         	<LineBreak/>
-                        	<Run Text="domanda è presente un timer che segna il tempo"/>
+                        	<Run Text="un suono di conferma se la risposta è corretta, o"/>
                         	<LineBreak/>
-                        	<Run Text="residuo. Si veda quest'immagine:"/>
-                </TextBlock>
-
-            </Grid>
-            <Image Source="/Images/tutorial.png" HorizontalAlignment="Center" Height="228" Margin="140,0,138,0" Width="202" />
-            <Button Content="Prosegui" FontSize="40" Height="92" Click="Button_Click" Background="#66000000" Margin="-4,0,4,0" >
+                        	<Run Text="un suono diverso se la risposta è errata."/>
+                        	<LineBreak/>
+                        	<Run Text="In tal caso si ricomincerà dalla prima domanda di"/>
+                        	<LineBreak/>
+                            <Run Text="tale livello." />
+            </TextBlock>
+            <Button Content="Indietro" Click="Button_Click" Height="115" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="50" Background="#99000000" >
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF0088DD"/>
@@ -86,7 +72,6 @@
                     </LinearGradientBrush>
                 </Button.Foreground>
             </Button>
-
         </StackPanel>
 
     </Grid>
