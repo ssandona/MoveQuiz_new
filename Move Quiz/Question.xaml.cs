@@ -14,6 +14,8 @@ namespace Move_Quiz
 {
     public partial class Question : PhoneApplicationPage
     {
+
+        #region campi
         int tempo_rimanente;
         DispatcherTimer dt = new DispatcherTimer();
         int punti = 50;
@@ -23,7 +25,7 @@ namespace Move_Quiz
         private IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings;
 
         DispatcherTimer timer;
-        protected double CursorCenter;
+        protected double CursoreCenter;
         protected double accelY = 0;
         protected double accelX = 0;
         protected double xdiff;
@@ -42,6 +44,7 @@ namespace Move_Quiz
         protected bool ovest = false;
         protected bool riposo = false;
         protected bool risposta = false;
+        #endregion
 
         // Constructor
         public Question()
@@ -51,11 +54,8 @@ namespace Move_Quiz
             punti = 50;
             dt.Interval = new TimeSpan(0,0,0,1,0); // 1 sec
             dt.Tick += new EventHandler(dt_Tick);
-            //avviaAccellerometro();
             avviaTimer(50);
             RecuperaDatiDaCalibrazione();
-            //ReimpostaCentro();
-
             timer = new DispatcherTimer();
             // Intervallo ottimo perché l'occhio umano veda qualcosa di fluido
             timer.Interval = TimeSpan.FromMilliseconds(40);
@@ -96,11 +96,13 @@ namespace Move_Quiz
 
             if (correct)
             {
+                answer_correct.Volume = 0.8;
                 answer_correct.Play(); //suono risposta corretta
                 punti += 3;
             }
             else
             {
+                answer_wrong.Volume = 0.8;
                 answer_wrong.Play(); //suono risposta errata
                 punti -= 5;
             }
@@ -131,12 +133,12 @@ namespace Move_Quiz
                 // cambio il colore degli ultimi secondi del cronometro
                 case 6: { last_beep.Volume = 0; last_beep.Play(); break; }
                 case 5: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(80, 255, 0, 0)); time_beep.Volume=0; time_beep.Play(); break; }
-                case 4: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(100, 255, 0, 0)); time_beep.Volume = 0.2; time_beep.Play(); break; }
-                case 3: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(120, 255, 0, 0)); time_beep.Volume = 0.4; time_beep.Play(); break; }
-                case 2: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(140, 255, 0, 0)); time_beep.Volume = 0.6; time_beep.Play(); break; }
-                case 1: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(160, 255, 0, 0)); time_beep.Volume = 0.8; time_beep.Play(); break; }
+                case 4: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(100, 255, 0, 0)); time_beep.Volume = 0.6; time_beep.Play(); break; }
+                case 3: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(120, 255, 0, 0)); time_beep.Volume = 0.8; time_beep.Play(); break; }
+                case 2: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(140, 255, 0, 0)); time_beep.Volume = 0.9; time_beep.Play(); break; }
+                case 1: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(160, 255, 0, 0)); time_beep.Volume = 0.9; time_beep.Play(); break; }
                 case 0: { Counter.Foreground = new SolidColorBrush(Color.FromArgb(180, 255, 0, 0));
-                last_beep.Volume = 0.7;
+                last_beep.Volume = 1.0;
                     last_beep.Play();
                     dt.Stop();
                     timer.Stop();
@@ -270,7 +272,7 @@ namespace Move_Quiz
         /// </summary>
         void timer_Tick(object sender, EventArgs e)
         {
-            CursorCenter = Cursor.Width / 2;
+            CursoreCenter = Cursore.Width / 2;
 
             xdiff = timerX - accelX;
             ydiff = timerY - accelY;
@@ -278,37 +280,42 @@ namespace Move_Quiz
                 accelX = -timerX ;
                 accelY = timerY;
                 #region invocazione metodi nord sud est ovest riposo
-                if ((timerY < -0.45) && (!nord) && (!est) && (!ovest) && (!sud))
+
+                double left = Cursore.Margin.Left;
+                double right = Cursore.Margin.Right;
+                double up = Cursore.Margin.Top;
+                double down = Cursore.Margin.Bottom;
+
+                if ((down < 100) && (!nord) && (!est) && (!ovest) && (!sud))
                 {
                     sud = true;
                     est = false; nord = false; ovest = false; riposo = false; risposta = true;
                     Sud();
                 }
-                else if ((timerY > 0.45) && (!nord) && (!est) && (!ovest) && (!sud))
+                else if ((up <100) && (!nord) && (!est) && (!ovest) && (!sud))
                 {
                     nord = true;
                     sud = false; ovest = false; est = false; riposo = false; risposta = true;
                     Nord();
                 }
-                else if ((timerX < -0.52) && (timerY < 0.38) && (timerY > -0.38) && (!nord) && (!est) && (!ovest) && (!sud))
+                else if ((left < 60) && (up>120) && (down>120) && (!nord) && (!est) && (!ovest) && (!sud))
                 {
                     ovest = true;
                     sud = false; nord = false; est = false; riposo = false; risposta = true;
                     Ovest();
                 }
-                else if ((timerX > 0.52) && (timerY < 0.38) && (timerY > -0.38) && (!nord) && (!est) && (!ovest) && (!sud))
+                else if ((right < 60) && (up > 120) && (down > 120) && (!nord) && (!est) && (!ovest) && (!sud))
                 {
                     est = true;
                     sud = false; ovest = false; nord = false; riposo = false; risposta = true;
                     Est();
                 }
-                else if((!riposo)&&(timerX>=-0.45)&&(timerX<=0.45)&&(timerY<=0.38)&&(timerY>=-0.38))
+                else if((!riposo)&&(up>150)&&(down>150)&&(left>150)&&(right>150))
                 {
                     riposo = true;
                     sud = false; ovest = false; nord = false; est = false;
                     if (risposta)
                     {
-                        /*MessageBox.Show("Safe area!");*/
                         Riposo();
                         risposta = false;
                     }
@@ -348,39 +355,39 @@ namespace Move_Quiz
             /* Vado a fare data smoothing dei dati presi dall'accelerometro */
             timerX = Math.Round(e.LowPassFilteredAcceleration.X, 3)-x_calib;
             timerY = Math.Round(e.LowPassFilteredAcceleration.Y, 3)-y_calib;
-            Cursor.Margin = new Thickness(getX(), getY(), (width - (getX() + Cursor.Width)), (height - (getY() + Cursor.Height)));
+            Cursore.Margin = new Thickness(getX(), getY(), (width - (getX() + Cursore.Width)), (height - (getY() + Cursore.Height)));
         }
 
 
         /// <returns> La nuova posizione del margine sinistro del cursore in modo che non esca dal rettangolo</returns>
         double getX()
         {
-            var newX = centerX + (-accelX * 1.5 * centerX);
-            if ((newX - CursorCenter) < 0)
+            var newX = centerX + (-accelX * 3 * centerX);
+            if ((newX - CursoreCenter) < 0)
             {
                 return 0;
             }
-            else if ((newX + CursorCenter) > width)
+            else if ((newX + CursoreCenter) > width)
             {
-                return width - 2 * CursorCenter;
+                return width - 2 * CursoreCenter;
             }
-            return newX - CursorCenter;
+            return newX - CursoreCenter;
         }
 
         /// <returns> La nuova posizione del margine superiore del cursore in modo che non esca dal rettangolo</returns>
         double getY()
         {
-            var newY = centerY + (-accelY * 2 * centerY);
+            var newY = centerY + (-accelY * 4 * centerY);
            
-            if ((newY - CursorCenter) < 0)
+            if ((newY - CursoreCenter) < 0)
             {
                 return 0;
             }
-            else if ((newY + CursorCenter) > height)
+            else if ((newY + CursoreCenter) > height)
             {
-                return height - 2 * CursorCenter;
+                return height - 2 * CursoreCenter;
             }
-            return newY - CursorCenter;
+            return newY - CursoreCenter;
         }
 
 
@@ -397,13 +404,6 @@ namespace Move_Quiz
                 y_calib = 0;
             }
         }
-
-        /*
-        public void ReimpostaCentro()
-        {
-            centerX = 240 - centerX * x_calib;
-            centerY = 400 - centerY * y_calib;
-        }*/
 
         #endregion
 
