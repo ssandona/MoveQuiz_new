@@ -24,7 +24,7 @@ namespace Move_Quiz
 
         protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/PagLivelli.xaml", UriKind.Relative));
         }
     }
 }
