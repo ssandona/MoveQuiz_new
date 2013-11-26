@@ -1,19 +1,10 @@
-﻿using Microsoft.Devices.Sensors;
-using Microsoft.Phone.Controls;
+﻿using Microsoft.Phone.Controls;
 using Move_Quiz.ViewModel;
 using System;
 using System.Windows;
 using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using System.Windows.Navigation;
 using System.Windows.Threading;
-//using Microsoft.Phone.Applications.Common;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows.Controls;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.IO.IsolatedStorage;
 
@@ -43,6 +34,8 @@ namespace Move_Quiz
         protected double centerY = 800 / 2;
         protected double timerX;
         protected double timerY;
+        protected double x_calib;
+        protected double y_calib;
         protected bool nord = false;
         protected bool sud = false;
         protected bool est = false;
@@ -60,6 +53,8 @@ namespace Move_Quiz
             dt.Tick += new EventHandler(dt_Tick);
             //avviaAccellerometro();
             avviaTimer(50);
+            RecuperaDatiDaCalibrazione();
+            //ReimpostaCentro();
 
             timer = new DispatcherTimer();
             // Intervallo ottimo perché l'occhio umano veda qualcosa di fluido
@@ -269,6 +264,7 @@ namespace Move_Quiz
         }
 
         
+        
         /// <summary>
         /// Ogni tick del timer vado ad invocare i metodi in caso di movimento verso nord, est, sud, ovest...
         /// </summary>
@@ -350,8 +346,8 @@ namespace Move_Quiz
         void UpdateImagePos(AccelerometerHelperReadingEventArgs e)
         {
             /* Vado a fare data smoothing dei dati presi dall'accelerometro */
-            timerX = Math.Round(e.OptimalyFilteredAcceleration.X, 3);
-            timerY = Math.Round(e.OptimalyFilteredAcceleration.Y, 3);
+            timerX = Math.Round(e.LowPassFilteredAcceleration.X, 3)-x_calib;
+            timerY = Math.Round(e.LowPassFilteredAcceleration.Y, 3)-y_calib;
             Cursor.Margin = new Thickness(getX(), getY(), (width - (getX() + Cursor.Width)), (height - (getY() + Cursor.Height)));
         }
 
@@ -359,7 +355,7 @@ namespace Move_Quiz
         /// <returns> La nuova posizione del margine sinistro del cursore in modo che non esca dal rettangolo</returns>
         double getX()
         {
-            var newX = centerX + (-accelX *1.5* centerX);
+            var newX = centerX + (-accelX * 1.5 * centerX);
             if ((newX - CursorCenter) < 0)
             {
                 return 0;
@@ -374,7 +370,7 @@ namespace Move_Quiz
         /// <returns> La nuova posizione del margine superiore del cursore in modo che non esca dal rettangolo</returns>
         double getY()
         {
-            var newY = centerY + (-accelY*1.7 * centerY);
+            var newY = centerY + (-accelY * 2 * centerY);
            
             if ((newY - CursorCenter) < 0)
             {
@@ -386,6 +382,29 @@ namespace Move_Quiz
             }
             return newY - CursorCenter;
         }
+
+
+        public void RecuperaDatiDaCalibrazione()
+        {
+            if (appSettings.Contains("x_calib") && appSettings.Contains("y_calib"))
+            {
+                x_calib = Double.Parse((appSettings["x_calib"]).ToString());
+                y_calib = Double.Parse((appSettings["y_calib"]).ToString());
+            }
+            else
+            {
+                x_calib = 0;
+                y_calib = 0;
+            }
+        }
+
+        /*
+        public void ReimpostaCentro()
+        {
+            centerX = 240 - centerX * x_calib;
+            centerY = 400 - centerY * y_calib;
+        }*/
+
         #endregion
 
     }

@@ -37,7 +37,7 @@ namespace Move_Quiz
 
         private void Tutorial_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Tutorial.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Calibrazione.xaml", UriKind.Relative));
         }
     }
 }

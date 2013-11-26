@@ -36,7 +36,7 @@ namespace Move_Quiz
             if (appSettings.Contains("bestscore15")) Livello15.Text = appSettings["bestscore15"].ToString();
             if (appSettings.Contains("bestscore16")) Livello16.Text = appSettings["bestscore16"].ToString();
         }
-        
+
 
         
 

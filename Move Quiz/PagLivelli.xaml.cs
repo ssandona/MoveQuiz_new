@@ -34,6 +34,10 @@ namespace Move_Quiz
             NavigationService.Navigate(new Uri("/MainPage.xaml?Refresh=true", UriKind.Relative));
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Tutorial.xaml", UriKind.Relative));
+        }
         
     }
 }

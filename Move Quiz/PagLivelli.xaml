@@ -47,7 +47,7 @@
                 </TextBlock.Foreground>
             </TextBlock>
         </StackPanel>
-        <StackPanel Grid.Row="1" Margin="0,0,0,10">
+        <StackPanel Margin="0,88,0,10" Grid.RowSpan="2">
             <ListBox  Height="Auto" Width="Auto" ItemsSource="{Binding ListaLiv}" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="0,0,0,-447" Canvas.ZIndex="11" >
 
                 <ListBox.ItemTemplate>
@@ -65,11 +65,17 @@
                     </ItemsPanelTemplate>
                 </ListBox.ItemsPanel>
             </ListBox>
-            <TextBlock TextWrapping="Wrap" Margin="0,480,0,-1" Height="116" TextAlignment="Center" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="40" FontStyle="Italic">
-            	<Run Text="Scegliete il livello"/>
-            	<LineBreak/>
-            	<Run Text="da giocare"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,480,0,-1" Height="53" TextAlignment="Center" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="30" FontStyle="Italic">
+            	<Run Text="Scegliete il livello da giocare" FontSize="35"/>
             </TextBlock>
+            <Button Content="Tutorial" Height="124" Click="Button_Click" FontSize="60" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara">
+                <Button.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White"/>
+                        <GradientStop Color="#FF0088DD" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Foreground>
+            </Button>
         </StackPanel>
 
     </Grid>
