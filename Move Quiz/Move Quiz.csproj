@@ -153,6 +153,7 @@
     <Content Include="Images\back1.jpg" />
     <Content Include="Images\back4.jpg" />
     <Content Include="Images\icon.png" />
+    <Content Include="Images\icon2.png" />
     <Content Include="Images\locked.png" />
     <Content Include="Images\no1.png" />
     <Content Include="Images\tile.png" />
