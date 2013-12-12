@@ -51,8 +51,8 @@
                     <RowDefinition Height="50" />
                     <RowDefinition Height="75"/>
                 </Grid.RowDefinitions>
-                <TextBlock Text="A cosa serve?" Grid.Row="0"  FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" TextAlignment="Center" />
-                <TextBlock Grid.Row="1" FontSize="25" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left" Margin="0,0,0,-166">
+                <TextBlock Foreground="White" Text="A cosa serve?" Grid.Row="0"  FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" TextAlignment="Center" />
+                <TextBlock Foreground="White" Grid.Row="1" FontSize="25" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left" Margin="0,0,0,-166">
                 	<Run Text="La calibrazione serve a rendere più"/>
                 	<LineBreak/>
                 	<Run Text="usabile questo gioco."/>
@@ -70,7 +70,7 @@
 
 
             </Grid>
-            <Button Content="Ricalibra" FontSize="60" Height="138" Click="Button_Click" Background="#66000000" Margin="-4,0,4,0" >
+            <Button BorderBrush="White" Content="Ricalibra" FontSize="60" Height="138" Click="Button_Click" Background="#66000000" Margin="-4,0,4,0" >
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF0088DD"/>

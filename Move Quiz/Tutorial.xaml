@@ -14,6 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    
     <Grid x:Name="LayoutRoot">
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="/Images/back1.jpg"/>
@@ -45,26 +46,28 @@
             </TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="1">
-
-            <Grid Width="440" Height="305">
+            <ScrollViewer Height="600" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+                <Grid Width="440" Height="1100">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50" />
                     <RowDefinition Height="75"/>
                     <RowDefinition Height="50" />
                     <RowDefinition Height="140"/>
-                </Grid.RowDefinitions>
-                <TextBlock Text="Scopo del gioco" Grid.Row="0"  FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" TextAlignment="Center" />
-                <TextBlock Grid.Row="1" FontSize="20" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left">
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="350"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Foreground="White" Text="Scopo del gioco" Grid.Row="0"  FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" TextAlignment="Center" />
+                <TextBlock Foreground="White" Grid.Row="1" FontSize="20" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left">
                         	<Run Text="Il  gioco  consiste  in  16  livelli  di  10  domande"/>
                         	<LineBreak/>
                         	<Run Text="ciascuno. Lo scopo del gioco è vincere tutti i livelli" />
                             <LineBreak/>
                         	<Run Text="con il punteggio migliore in meno di 50 secondi." />
                 </TextBlock>
-                <TextBlock Text="Come giocare?" Grid.Row="2"  FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" TextAlignment="Center" />
+                    <TextBlock Foreground="White" Text="Come giocare?" Grid.Row="2"  FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" TextAlignment="Center" />
 
 
-                <TextBlock Grid.Row="3" FontSize="20" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left">
+                    <TextBlock Foreground="White" Grid.Row="3" FontSize="20" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left">
                         	<Run Text="Nella schermata principale di gioco, al centro è"/>
                         	<LineBreak/>
                         	<Run Text="presente una domanda di cultura generale, con 4"/>
@@ -75,20 +78,30 @@
                         	<LineBreak/>
                         	<Run Text="residuo. Si veda quest'immagine:"/>
                 </TextBlock>
+                    <Image Grid.Row="4" Source="/Images/tutorial.png" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Row="5" Foreground="White" FontSize="20" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" TextAlignment="Left">
+                        	<Run Text="Per rispondere a una domanda è necessario che"/>
+                        	<LineBreak/>
+                        	<Run Text="s'inclini  il  telefono   nella   direzione  del  colore"/>
+                        	<LineBreak/>
+                        	<Run Text="relativo alla risposta  desiderata.   Si  vedrà  che  il"/>
+                        	<LineBreak/>
+                        	<Run Text="cursore si sposterà in tale direzione fino ad udire"/>
+                        	<LineBreak/>
+                        	<Run Text="un suono di conferma se la risposta è corretta, o"/>
+                        	<LineBreak/>
+                        	<Run Text="un suono diverso se la risposta è errata."/>
+                        	<LineBreak/>
+                        	<Run Text="In tal caso si ricomincerà dalla prima domanda di"/>
+                        	<LineBreak/>
+                            <Run Text="tale livello." />
+                    </TextBlock>
+                </Grid>
+            </ScrollViewer>
 
-            </Grid>
-            <Image Source="/Images/tutorial.png" HorizontalAlignment="Center" Height="228" Margin="140,0,138,0" Width="202" />
-            <Button Content="Prosegui" FontSize="40" Height="90" Click="Button_Click" Background="#66000000" Width="480" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" >
-                <Button.Foreground>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FF0088DD"/>
-                        <GradientStop Color="White" Offset="1"/>
-                    </LinearGradientBrush>
-                </Button.Foreground>
-            </Button>
 
         </StackPanel>
 
-    </Grid>
-
+        </Grid>
+   
 </phone:PhoneApplicationPage>

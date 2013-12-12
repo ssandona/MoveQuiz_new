@@ -48,7 +48,7 @@
         <StackPanel Margin="0 10 0 0" Grid.Row="1">
             <Image Margin="0 60 0 0" Source="/Images/no1.png" Height="255" RenderTransformOrigin="0.5,0.5"/>
             <Image Margin="36,-235,10,0" Source="/Images/no1.png" Height="255" RenderTransformOrigin="0.5,0.5" Opacity="0.43" Canvas.ZIndex="-25" HorizontalAlignment="Center" Width="412"/>
-            <TextBlock TextWrapping="Wrap" Height="298" TextAlignment="Center">
+            <TextBlock Foreground="White" TextWrapping="Wrap" Height="298" TextAlignment="Center">
         		<Run Text="App sviluppata nel contesto del corso di Software Engineering tenuto dal prof. Cortesi nell'A.A. 2013/2014. "/>
         		<Run Text="È stata sviluppata dal gruppo &quot;No1&quot;:"/>
         		<LineBreak/><LineBreak/>

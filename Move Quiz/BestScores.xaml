@@ -23,7 +23,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,0">
-            <TextBlock x:Name="ApplicationTitle1" Text="MOVE QUIZ" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara"
+            <TextBlock  x:Name="ApplicationTitle1" Text="MOVE QUIZ" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara"
                        FontSize="26.667">
                 <TextBlock.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -47,168 +47,168 @@
         </StackPanel>
         <StackPanel Grid.Row="1">
             <ListBox Height="430">
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 1" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello1" Grid.Column="1" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" HorizontalAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 1" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello1" Grid.Column="1" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" HorizontalAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                    <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                         <Grid Width="440">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="2*" />
                                 <ColumnDefinition Width="3*" />
                             </Grid.ColumnDefinitions>
-                            <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 2" Margin="0" TextAlignment="Left"/>
-                            <TextBlock Name="Livello2" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 2" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello2" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                         </Grid>
                     </ListBoxItem>
-                        <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                             <Grid Width="440">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="2*" />
                                     <ColumnDefinition Width="3*" />
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 3" Margin="0" TextAlignment="Left"/>
-                                <TextBlock Name="Livello3" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 3" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello3" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                             </Grid>
                         </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 4" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello4" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 4" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello4" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 5" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello5" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 5" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello5" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 6" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello6" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 6" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello6" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 7" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello7" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 7" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello7" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 8" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello8" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 8" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello8" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 9" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello9" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 9" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello9" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 10" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello10" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 10" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello10" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 11" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello11" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 11" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello11" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 12" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello12" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 12" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello12" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 13" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello13" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 13" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello13" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 14" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello14" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 14" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello14" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 15" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello15" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 15" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello15" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
-                <ListBoxItem Height="60" Width="440">
+                <ListBoxItem Foreground="White" Height="60" Width="440">
                     <Grid Width="440">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="3*" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 16" Margin="0" TextAlignment="Left"/>
-                        <TextBlock Name="Livello16" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Grid.Column="0" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Candara" FontSize="40" Text="Livello 16" Margin="0" TextAlignment="Left"/>
+                        <TextBlock Foreground="White" Name="Livello16" Grid.Column="1" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Quartz MS" FontSize="40" Text="-" Margin="0,-4,0,0" TextAlignment="Left"/>
                     </Grid>
                 </ListBoxItem>
             </ListBox>
-            <Button Content="Ricomincia Gioco" Height="142" Background="#66000000" FontSize="60" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" Click="Button_Click_1"/>
+            <Button Foreground="White" BorderBrush="White" Content="Ricomincia Gioco" Height="142" Background="#66000000" FontSize="60" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" Click="Button_Click_1"/>
         </StackPanel>
 
     </Grid>

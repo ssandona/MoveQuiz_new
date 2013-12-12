@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{ca813a70-fc91-4143-a436-47a62f068eb3}" Title="Move Quiz" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Move_Quiz author" Description="Sample description" Publisher="Move_Quiz">
+  <App xmlns="" ProductID="{ca813a70-fc91-4143-a436-47a62f068eb3}" Title="Move Quiz" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Move_Quiz author" Description="Sample description" Publisher="Move_Quiz" BitsPerPixel="32">
     <IconPath IsRelative="true" IsResource="false">Images\icon2.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />

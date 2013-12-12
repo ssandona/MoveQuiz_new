@@ -43,7 +43,7 @@
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-            <Button Grid.Row="0" Height="160" Content="Gioca ora!" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Gioca_Click" Width="446" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#B2000000">
+            <Button BorderBrush="White" Grid.Row="0" Height="160" Content="Gioca ora!" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Gioca_Click" Width="446" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#B2000000">
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                         <GradientStop Color="White"/>
@@ -51,7 +51,7 @@
                     </LinearGradientBrush>
                 </Button.Foreground>
             </Button>
-            <Button Grid.Row="1" Height="160" Content="Informazioni" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Info_Click" Width="446" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#B2000000">
+            <Button BorderBrush="White" Grid.Row="1" Height="160" Content="Informazioni" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Info_Click" Width="446" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#B2000000">
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                         <GradientStop Color="White"/>
@@ -59,7 +59,7 @@
                     </LinearGradientBrush>
                 </Button.Foreground>
             </Button>
-            <Button Grid.Row="2" Height="160" Content="Bestscores" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Altro_Click" Width="446" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#66000000">
+            <Button BorderBrush="White" Grid.Row="2" Height="160" Content="Bestscores" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Altro_Click" Width="446" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#66000000">
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                         <GradientStop Color="White"/>
@@ -67,7 +67,7 @@
                     </LinearGradientBrush>
                 </Button.Foreground>
             </Button>
-            <Button Grid.Row="3" Height="160" Content="Calibrazione" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Tutorial_Click" Width="446" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#66000000">
+            <Button BorderBrush="White" Grid.Row="3" Height="160" Content="Calibrazione" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="Tutorial_Click" Width="446" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="70" Background="#66000000">
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                         <GradientStop Color="White"/>

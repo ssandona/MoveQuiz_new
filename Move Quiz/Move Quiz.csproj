@@ -95,9 +95,6 @@
     <Compile Include="Tutorial.xaml.cs">
       <DependentUpon>Tutorial.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tutorial2.xaml.cs">
-      <DependentUpon>Tutorial2.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewModel\LivelliVM.cs" />
     <Compile Include="ViewModel\QuestionsVM.cs" />
   </ItemGroup>
@@ -131,10 +128,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Tutorial.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Tutorial2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

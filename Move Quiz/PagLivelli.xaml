@@ -52,7 +52,7 @@
 
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <Button Content="{Binding Id}" BorderThickness="0" Click="GoToGame" Height="110" Width="120" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" >
+                        <Button Foreground="White" Content="{Binding Id}" BorderThickness="0" Click="GoToGame" Height="110" Width="120" FontFamily="/Lights Out;component/Fonts/Fonts.zip#Buxton Sketch" >
                             <Button.Background>
                                 <ImageBrush ImageSource="{Binding Avaiable}" />
                             </Button.Background>
@@ -65,10 +65,10 @@
                     </ItemsPanelTemplate>
                 </ListBox.ItemsPanel>
             </ListBox>
-            <TextBlock TextWrapping="Wrap" Margin="0,480,0,-1" Height="46" TextAlignment="Center" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="30" FontStyle="Italic">
+            <TextBlock Foreground="White" TextWrapping="Wrap" Margin="0,480,0,-1" Height="46" TextAlignment="Center" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara" FontSize="30" FontStyle="Italic">
             	<Run Text="Scegliete il livello da giocare" FontSize="35"/>
             </TextBlock>
-            <Button Content="Tutorial" Height="124" Click="Button_Click" FontSize="60" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara">
+            <Button BorderBrush="White" Content="Tutorial" Height="124" Click="Button_Click" FontSize="60" FontFamily="/Move Quiz;component/Fonts/Fonts.zip#Candara">
                 <Button.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White"/>
